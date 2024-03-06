@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d71667be2b82d646ba91845a6046ddc, type: 3}
+  m_Name: 1.3
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "If you\u2019re a human, like the Owner, it\u2019s a lot safer. But cats
+      aren\u2019t as fortunate, is what I learned."
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+  - text: "The Owner is the one who gives us our food, who provides the shelter.
+      Some cats are wary of them, but they\u2019re the sweetest person in the world."
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+  - text: "Sweet, so sweet\u2026"
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+  - text: "\u2026"
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+  - text: "\u2026 I\u2019m hungry\u2026"
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+  background: {fileID: 21300000, guid: c8e87e645b8033c4f96e03d5e949a2a8, type: 3}
+  nextScene: {fileID: 0}
