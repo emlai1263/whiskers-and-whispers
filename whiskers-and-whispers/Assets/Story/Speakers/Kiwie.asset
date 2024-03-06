@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Kiwie
   m_EditorClassIdentifier: 
   speakerName: Kiwie
-  textColor: {r: 0.84705883, g: 0.5882353, b: 0.3019608, a: 0}
+  textColor: {r: 0.84705883, g: 0.5882353, b: 0.3019608, a: 1}

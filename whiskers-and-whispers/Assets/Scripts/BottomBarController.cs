@@ -80,6 +80,7 @@ public class BottomBarController : MonoBehaviour
             if (++wordIndex == text.Length)
             {
                 state = State.COMPLETED;
+                yield return new WaitForSeconds(0.05f);
                 break;
             }
         }

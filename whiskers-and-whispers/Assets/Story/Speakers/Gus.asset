@@ -13,4 +13,4 @@ MonoBehaviour:
   m_Name: Gus
   m_EditorClassIdentifier: 
   speakerName: Gus
-  textColor: {r: 0.49803922, g: 0.23529412, b: 0.34509805, a: 0}
+  textColor: {r: 0.49803922, g: 0.23529412, b: 0.34509805, a: 1}
