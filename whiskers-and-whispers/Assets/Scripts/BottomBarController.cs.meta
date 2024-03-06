@@ -3,7 +3,10 @@ guid: 117e08a12a1b4fb4d9bd165686fb483b
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - barText: {fileID: 2159628062571170770, guid: 02852ad0d1d5ad6428b645d6c9ed8c4a, type: 3}
+  - personNameText: {fileID: 7756399755877621339, guid: f0677868e5df977408f5a5d3823fd3f0, type: 3}
+  - currentScene: {fileID: 11400000, guid: 250838fa825faad449d06b1d5e43a316, type: 2}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

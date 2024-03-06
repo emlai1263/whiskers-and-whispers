@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3eed622d819b3964baf244ee28e2983c, type: 3}
-  m_Name: Keres
+  m_Name: Miffy
   m_EditorClassIdentifier: 
-  speakerName: Speaker2
-  textColor: {r: 0.38959596, g: 0.8018868, b: 0.5969549, a: 1}
+  speakerName: Miffy
+  textColor: {r: 0.4509804, g: 0.7764706, b: 0.84705883, a: 1}

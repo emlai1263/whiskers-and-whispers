@@ -1,12 +1,11 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
     public StoryScene currentScene;
-    public BottomBarController bottomBar;
     public BackgroundController backgroundController;
+    public BottomBarController bottomBar;
     private State state = State.IDLE;
     private enum State
     {
@@ -50,13 +49,13 @@ public class GameController : MonoBehaviour
     {
         state = State.ANIMATE;
         currentScene = scene;
-        bottomBar.Hide();
+        //bottomBar.Hide();
         yield return new WaitForSeconds(1f);
         backgroundController.SwitchImage(scene.background);
         yield return new WaitForSeconds(1f);
-        bottomBar.ClearText();
-        bottomBar.Show();
-        yield return new WaitForSeconds(1f);
+        //bottomBar.ClearText();
+        //bottomBar.Show();
+        //yield return new WaitForSeconds(1f);
         bottomBar.PlayScene(scene);
         state = State.IDLE;
 
