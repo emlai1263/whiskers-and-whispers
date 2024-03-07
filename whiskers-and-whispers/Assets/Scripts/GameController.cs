@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement; // Add this line for SceneManager
 
 public class GameController : MonoBehaviour
 {
@@ -53,6 +54,11 @@ public class GameController : MonoBehaviour
 
     private IEnumerator SwitchScene(StoryScene scene)
     {
+        if (scene == null)
+        {
+            // Load the "Overworld" scene
+            SceneManager.LoadScene("Overworld");
+        }
         state = State.ANIMATE;
         // Fade out current background
         yield return StartCoroutine(FadeBackground(0.0f));
@@ -62,6 +68,8 @@ public class GameController : MonoBehaviour
         // Fade in new background
         yield return StartCoroutine(FadeBackground(1.0f));
         state = State.IDLE;
+
+
     }
 
     private IEnumerator FadeBackground(float targetOpacity)

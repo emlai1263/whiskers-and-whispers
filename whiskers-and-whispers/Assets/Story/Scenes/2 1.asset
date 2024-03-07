@@ -1,0 +1,138 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d71667be2b82d646ba91845a6046ddc, type: 3}
+  m_Name: 2 1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: 'The body of the Owner lies on the floor. '
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+  - text: "If it weren\u2019t for Ryan\u2019s crying, I would have thought they were
+      sleeping. "
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+  - text: "YOU\u2019RE SICK\u2026! YOU\u2019RE SO SICK!!! HOW COULD YOU!!! "
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+  - text: "The whole damn street can hear you! Can you shut up!? I didn\u2019t do
+      anything to your precious human!  "
+    speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
+  - text: "W-What\u2019s going on!? "
+    speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
+  - text: "How lucky that you were sleeping in the front\u2026~ It\u2019s so noisy
+      in here. "
+    speaker: {fileID: 11400000, guid: c79a115cb8c7ae44d9c5026a0a6ce523, type: 2}
+  - text: "\u2026 *sniffle* "
+    speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
+  - text: "\u2026 See what I mean?  "
+    speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
+  - text: "You could\u2019ve just told me that the Owner got MURDERED! What\u2019s
+      wrong with you!? "
+    speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
+  - text: "Don\u2019t be so prickly, Kiwie! How is anyone supposed to say something
+      like, \u201Cour Owner is dead\u201D? "
+    speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
+  - text: 'You made it sound like the food bowl was overflowing, not that there was
+      a LITERAL MURDER!!! '
+    speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
+  - text: "Don\u2019t be so prickly, Kiwie! How is anyone supposed to say something
+      like, \u201Cour Owner is dead\u201D? "
+    speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
+  - text: "I could barely get a hold of my own emotions before Ryan and Dug\u2019s
+      argument cuts off my train of thought. "
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+  - text: "I could barely get a hold of my own emotions before Ryan and Dug\u2019s
+      argument cuts off my train of thought. "
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+  - text: 'WHO ELSE COULD IT HAVE BEEN!? You''ve been hissing at them ever since
+      you''ve gone here!!!  '
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+  - text: 'You''re aggressive, you''re big, and you''re the only one out of all of
+      us that could''ve possibly killed them! '
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+  - text: 'Would you quit being hysterical!? We don''t even know if it was a murder! '
+    speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
+  - text: "There's no way they would just drop dead like this! There's no way! There's
+      absolutely no way\u2026!! "
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+  - text: "Ryan's eyes filled with tears as their entire body shuddered in sadness\u2026 "
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+  - text: 'It hurt to see Ryan so pained. Ryan was, by all accounts, a wonderful
+      and friendly cat. They belonged to the owner. '
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+  - text: "Ryan would help any new cat get comfortable in the cafe, but above all,
+      they loved their owner with all their heart\u2026 "
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+  - text: "In that scenario - killing the Owner would be\u2026 the worst crime anyone
+      could do against Ryan. "
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+  - text: "If there\u2019s only six of us, then\u2026  "
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+  - text: "KIWIE\u2026!! You're here\u2026!! Thank goodness\u2026!!  "
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+  - text: "You\u2019re acting as if Kiwie\u2019s a deciding factor\u2026 right now,
+      you\u2019re acting no better than Dug, you know? "
+    speaker: {fileID: 11400000, guid: c79a115cb8c7ae44d9c5026a0a6ce523, type: 2}
+  - text: 'No better than ME!? You useless cat! Whose side are you on!? '
+    speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
+  - text: "None of you are helpful at all - in fact, none of you even seem to care!
+      This was the person who fed you, gave you shelter and love when no one else
+      would\u2026  "
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+  - text: 'And this is how you react when they DIE!?!? '
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+  - text: "Ryan grows more hysterical by the moment\u2026 "
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+  - text: "Ryan, it\u2019s going to be okay\u2026! Please calm down\u2026 "
+    speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
+  - text: 'How can I calm down when nobody ELSE is freaking out!? '
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+  - text: "Maybe because you\u2019re a maniac! "
+    speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
+  - text: 'How golden coming from YOU! '
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+  - text: "\u2026 *sniffle* \u2026 "
+    speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
+  - text: "Now now, everybody! Kiwie\u2019s right\u2026 do you know what happens
+      if we don\u2019t calm down? "
+    speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
+  - text: 'WHAT! WHAT HAPPENS, HUH!? '
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+  - text: ...
+    speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
+  - text: "There\u2019s still a killer here, you know\u2026 someone who is capable
+      of killing a human is also capable of killing cats. "
+    speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
+  - text: "So\u2026 isn\u2019t it in everyone\u2019s best interest to make friends
+      and not foes? "
+    speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
+  - text: "You\u2026! Argh\u2026 "
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+  - text: ...
+    speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
+  - text: "The room falls silent again, only filled with Miffy\u2019s sniffles. "
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+  - text: "That doesn\u2019t mean that I still can\u2019t be angry\u2026! Kiwie!
+      You believe me, right!? Dug\u2019s the only one capable of doing this! "
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+  - text: 'Ryan looks at me expectantly. I look towards her opponent, Dug. '
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+  - text: "Dug is a Maine Coon, blind in one eye, and has quite the \u201Cno nonsense\u201D
+      personality. I\u2019ve never enjoyed talking to him by sheer virtue of his
+      low temper. "
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+  - text: 'What Ryan said was ultimately true. Dug was an aggressive and untrusting
+      cat towards humans, the most out of all of us - and being the newest cat, he
+      obviously has little time to adjust. '
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+  - text: "I think\u2026  "
+    speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
+  background: {fileID: 21300000, guid: b80cdc64cc18d4945ad11a272f46546a, type: 3}
+  backgroundOpacity: 1
+  nextScene: {fileID: 0}

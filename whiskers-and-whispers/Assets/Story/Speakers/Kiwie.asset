@@ -12,5 +12,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eed622d819b3964baf244ee28e2983c, type: 3}
   m_Name: Kiwie
   m_EditorClassIdentifier: 
-  speakerName: Kiwie
+  speakerName: Me
   textColor: {r: 0.84705883, g: 0.5882353, b: 0.3019608, a: 1}

@@ -17,5 +17,20 @@ public class StoryScene : ScriptableObject
     {
         public string text;
         public Speaker speaker;
+        // public List<Action> actions;
+        // [System.Serializable]
+        // public struct Action
+        // {
+        //     public Speaker speaker;
+        //     public int spriteIndex;
+        //     public Type actionType;
+
+        //     [System.Serializable]
+        //     public enum Type
+        //     {
+        //         NONE, APPEAR, DISAPPEAR
+        //     }
+
+        // }
     }
 }

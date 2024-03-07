@@ -11,7 +11,7 @@ public class BottomBarController : MonoBehaviour
     public StoryScene currentScene;
     private State state = State.COMPLETED;
     //private Animator animator;
-    //private bool isHidden = false;
+    private bool isHidden = false;
 
     private enum State
     {
@@ -92,7 +92,7 @@ public class BottomBarController : MonoBehaviour
         while (state != State.COMPLETED)
         {
             barText.text += text[wordIndex];
-            yield return new WaitForSeconds(0.04f);
+            yield return new WaitForSeconds(0.03f);
             if (++wordIndex == text.Length)
             {
                 state = State.COMPLETED;

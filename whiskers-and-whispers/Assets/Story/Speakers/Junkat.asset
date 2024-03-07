@@ -14,3 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: Junkat
   textColor: {r: 0.8862745, g: 0.6313726, b: 0.5176471, a: 1}
+  sprites:
+  - {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
+  - {fileID: 21300000, guid: ead24f990a639464ab1fc3028de5859f, type: 3}
+  - {fileID: 21300000, guid: e16bb1fd29fbce549abcf23c93e1dedb, type: 3}
+  - {fileID: 21300000, guid: 5c937ced13dd37241bcaf033e28a70dd, type: 3}
+  - {fileID: 21300000, guid: 1ba28806c749aad449367271040db979, type: 3}
+  prefab: {fileID: 631616355405271778, guid: b139bd273d139674fb1371788a6323be, type: 3}

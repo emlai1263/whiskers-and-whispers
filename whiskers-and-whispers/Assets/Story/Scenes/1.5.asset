@@ -22,8 +22,6 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
   - text: "So cute. You\u2019re napping at this hour. "
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-  - text: "So cute. You\u2019re napping at this hour. "
-    speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
   - text: Everyone is
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
   - text: 'Not exactly. They wanted me to fetch you. '
@@ -43,6 +41,6 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
   - text: 'Coming? '
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-  background: {fileID: 21300000, guid: 66d788f1f7c240f4daeaeeb3fee578cb, type: 3}
+  background: {fileID: 21300000, guid: f14e48895cfa22b41893cf287e2b0c81, type: 3}
   backgroundOpacity: 1
   nextScene: {fileID: 0}
