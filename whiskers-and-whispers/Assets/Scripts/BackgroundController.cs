@@ -1,39 +1,37 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class BackgroundController : MonoBehaviour
 {
-    public bool isSwitched = false;
-    public Image background1;
-    public Image background2;
+    public List<Image> backgrounds;
+    private int switchBackground = 0;
     public Animator animator;
 
     public void SwitchImage(Sprite sprite)
     {
-        if (!isSwitched)
+        switchBackground++;
+        backgrounds[switchBackground].sprite = sprite;
+        if (switchBackground == 1)
         {
-            background2.sprite = sprite;
             animator.SetTrigger("SwitchFirst");
         }
-        else
+        else if (switchBackground == 2)
         {
-            background1.sprite = sprite;
             animator.SetTrigger("SwitchSecond");
         }
-        isSwitched = !isSwitched;
+        else if (switchBackground == 3)
+        {
+            animator.SetTrigger("SwitchThird");
+        }
+        else if (switchBackground == 4)
+        {
+            animator.SetTrigger("SwitchFourth");
+        }
     }
 
     public void SetImage(Sprite sprite)
     {
-        if (!isSwitched)
-        {
-            background1.sprite = sprite;
-        }
-        else
-        {
-            background2.sprite = sprite;
-        }
+        backgrounds[switchBackground].sprite = sprite;
     }
 }

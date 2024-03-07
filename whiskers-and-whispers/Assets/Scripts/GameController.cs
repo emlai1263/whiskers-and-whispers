@@ -28,9 +28,9 @@ public class GameController : MonoBehaviour
                 if (bottomBar.IsLastSentece())
                 {
                     PlayScene(currentScene.nextScene);
-                    // currentScene = currentScene.nextScene;
-                    // bottomBar.PlayScene(currentScene);
-                    // backgroundController.SwitchImage(currentScene.background);
+                    currentScene = currentScene.nextScene;
+                    bottomBar.PlayScene(currentScene);
+                    backgroundController.SwitchImage(currentScene.background);
                 }
                 else
                 {

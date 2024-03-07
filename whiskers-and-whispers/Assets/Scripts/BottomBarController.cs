@@ -53,6 +53,7 @@ public class BottomBarController : MonoBehaviour
         StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
         personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
         personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
+        barText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
     }
 
     public bool IsCompleted()
@@ -68,6 +69,7 @@ public class BottomBarController : MonoBehaviour
     private IEnumerator TypeText(string text)
     {
         barText.text = "";
+        Debug.Log(text);
         state = State.PLAYING;
         int wordIndex = 0;
 
