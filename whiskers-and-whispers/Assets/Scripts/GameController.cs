@@ -1,11 +1,15 @@
 using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class GameController : MonoBehaviour
 {
-    public StoryScene currentScene;
-    public BackgroundController backgroundController;
+    public List<StoryScene> scenes;
     public BottomBarController bottomBar;
+    public List<SpriteRenderer> backgroundRenderers;
+    public float fadeDuration = 1.0f;
+    private int currentSceneIndex = 0;
     private State state = State.IDLE;
     private enum State
     {
@@ -14,8 +18,9 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
-        bottomBar.PlayScene(currentScene);
-        backgroundController.SetImage(currentScene.background);
+        bottomBar.PlayScene(scenes[currentSceneIndex]);
+        //backgroundController.SetImage(currentScene.background);
+        SetBackground(scenes[currentSceneIndex].background); // Set initial background
     }
 
     // Update is called once per frame
@@ -27,10 +32,11 @@ public class GameController : MonoBehaviour
             {
                 if (bottomBar.IsLastSentece())
                 {
-                    PlayScene(currentScene.nextScene);
-                    currentScene = currentScene.nextScene;
-                    bottomBar.PlayScene(currentScene);
-                    backgroundController.SwitchImage(currentScene.background);
+                    // PlayScene(currentScene.nextScene);
+                    StartCoroutine(SwitchScene(scenes[currentSceneIndex].nextScene));
+                    // currentScene = currentScene.nextScene;
+                    // bottomBar.PlayScene(currentScene);
+
                 }
                 else
                 {
@@ -40,24 +46,51 @@ public class GameController : MonoBehaviour
         }
     }
 
-    private void PlayScene(StoryScene scene)
-    {
-        StartCoroutine(SwitchScene(scene));
-    }
+    // private void PlayScene(StoryScene scene)
+    // {
+    //     StartCoroutine(SwitchScene(scene));
+    // }
 
     private IEnumerator SwitchScene(StoryScene scene)
     {
         state = State.ANIMATE;
-        currentScene = scene;
-        //bottomBar.Hide();
-        yield return new WaitForSeconds(1f);
-        backgroundController.SwitchImage(scene.background);
-        yield return new WaitForSeconds(1f);
-        //bottomBar.ClearText();
-        //bottomBar.Show();
-        //yield return new WaitForSeconds(1f);
+        // Fade out current background
+        yield return StartCoroutine(FadeBackground(0.0f));
+        currentSceneIndex = scenes.IndexOf(scene);
         bottomBar.PlayScene(scene);
+        SetBackground(scene.background);
+        // Fade in new background
+        yield return StartCoroutine(FadeBackground(1.0f));
         state = State.IDLE;
+    }
 
+    private IEnumerator FadeBackground(float targetOpacity)
+    {
+        foreach (SpriteRenderer backgroundRenderer in backgroundRenderers)
+        {
+            Color color = backgroundRenderer.color;
+            float startOpacity = color.a;
+            float timer = 0.0f;
+
+            while (timer < fadeDuration)
+            {
+                timer += Time.deltaTime;
+                float progress = timer / fadeDuration;
+                color.a = Mathf.Lerp(startOpacity, targetOpacity, progress);
+                backgroundRenderer.color = color;
+                yield return null;
+            }
+
+            color.a = targetOpacity;
+            backgroundRenderer.color = color;
+        }
+    }
+
+    private void SetBackground(Sprite sprite)
+    {
+        foreach (SpriteRenderer backgroundRenderer in backgroundRenderers)
+        {
+            backgroundRenderer.sprite = sprite;
+        }
     }
 }

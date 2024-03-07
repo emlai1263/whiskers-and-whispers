@@ -50,10 +50,27 @@ public class BottomBarController : MonoBehaviour
     }
     public void PlayNextScentence()
     {
-        StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
-        personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
-        personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
-        barText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
+        if (state == State.PLAYING)
+        {
+            // If currently typing, skip to the end
+            StopAllCoroutines();
+            barText.text = currentScene.sentences[sentenceIndex].text;
+            state = State.COMPLETED;
+            return;
+        }
+
+        if (sentenceIndex + 1 < currentScene.sentences.Count)
+        {
+            sentenceIndex++;
+            StartCoroutine(TypeText(currentScene.sentences[sentenceIndex].text));
+            personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
+            personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
+            barText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
+        }
+        // StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
+        // personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
+        // personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
+        // barText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
     }
 
     public bool IsCompleted()
@@ -63,20 +80,19 @@ public class BottomBarController : MonoBehaviour
 
     public bool IsLastSentece()
     {
-        return sentenceIndex + 1 == currentScene.sentences.Count;
+        return sentenceIndex == currentScene.sentences.Count - 1;
     }
 
     private IEnumerator TypeText(string text)
     {
         barText.text = "";
-        Debug.Log(text);
         state = State.PLAYING;
         int wordIndex = 0;
 
         while (state != State.COMPLETED)
         {
             barText.text += text[wordIndex];
-            yield return new WaitForSeconds(0.05f);
+            yield return new WaitForSeconds(0.04f);
             if (++wordIndex == text.Length)
             {
                 state = State.COMPLETED;

@@ -8,6 +8,7 @@ public class StoryScene : ScriptableObject
 {
     public List<Sentence> sentences;
     public Sprite background;
+    public float backgroundOpacity = 1.0f;
     public StoryScene nextScene;
 
     [System.Serializable]
