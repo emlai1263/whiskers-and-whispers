@@ -212,7 +212,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 917306712}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -506,7 +506,7 @@ SpriteRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1365317007}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -992,6 +992,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1758835603}
     m_Modifications:
+    - target: {fileID: 1012496432981023851, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1012496432981023851, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1404797956146298370, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
       propertyPath: m_text
       value: 
@@ -1039,6 +1047,10 @@ PrefabInstance:
     - target: {fileID: 3996942754549125340, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044920494681139242, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9194960445367346053, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
       propertyPath: m_text

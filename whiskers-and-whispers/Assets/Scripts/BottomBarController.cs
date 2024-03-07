@@ -10,8 +10,8 @@ public class BottomBarController : MonoBehaviour
     private int sentenceIndex = -1;
     public StoryScene currentScene;
     private State state = State.COMPLETED;
-    private Animator animator;
-    private bool isHidden = false;
+    //private Animator animator;
+    //private bool isHidden = false;
 
     private enum State
     {
@@ -20,23 +20,23 @@ public class BottomBarController : MonoBehaviour
 
     private void Start()
     {
-        animator = GetComponent<Animator>();
+        // animator = GetComponent<Animator>();
     }
 
-    public void Hide()
-    {
-        if (!isHidden)
-        {
-            animator.SetTrigger("Hide");
-            isHidden = true;
-        }
-    }
+    // public void Hide()
+    // {
+    //     if (!isHidden)
+    //     {
+    //         animator.SetTrigger("Hide");
+    //         isHidden = true;
+    //     }
+    // }
 
-    public void Show()
-    {
-        animator.SetTrigger("Show");
-        isHidden = false;
-    }
+    // public void Show()
+    // {
+    //     animator.SetTrigger("Show");
+    //     isHidden = false;
+    // }
 
     public void ClearText()
     {
