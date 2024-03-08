@@ -26,5 +26,5 @@ MonoBehaviour:
       mind it at all. I\u2019ve heard stories about the \u201Coutside world\u201D
       from other cats."
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-  background: {fileID: 21300000, guid: 66d788f1f7c240f4daeaeeb3fee578cb, type: 3}
+  background: {fileID: 21300000, guid: 8070ca2fe3a7a2e46846d29ba6d42a66, type: 3}
   nextScene: {fileID: 11400000, guid: 9a21c55e76a935b49b4008589b97d990, type: 2}

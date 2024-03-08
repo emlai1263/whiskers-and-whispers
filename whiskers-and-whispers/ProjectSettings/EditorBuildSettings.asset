@@ -7,14 +7,17 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/Scenes/Main Menu.unity
-    guid: baef43424c075eb458586cb367058422
+    guid: 36d94bde991a9774f9ce8b92a92a14e3
   - enabled: 0
     path: Assets/Settings/Scenes/URP2DSceneTemplate.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/Overworld.unity
-    guid: cafa4a801fea85c4ba5d43a285d9288c
+    path: Assets/Scenes/Opening.unity
+    guid: ef082b4f20b89024292fe8a8ab7bd0dd
   - enabled: 1
-    path: Assets/Scenes/Visual Novel.unity
-    guid: 9b700ed679d88d74a82464d240e27871
+    path: Assets/Scenes/Overworld.unity
+    guid: 312e14c3b47e60842ad4736dbef210ee
+  - enabled: 1
+    path: Assets/Scenes/StorageRoom.unity
+    guid: 16577eeb4992e244b9bd0b5f502aa99a
   m_configObjects: {}

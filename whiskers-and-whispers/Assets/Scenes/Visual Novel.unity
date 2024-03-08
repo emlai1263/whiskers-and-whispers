@@ -658,9 +658,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fca1b98ececdf7e44bf1ff291de15f97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentScene: {fileID: 11400000, guid: 250838fa825faad449d06b1d5e43a316, type: 2}
-  backgroundController: {fileID: 146611498}
+  scenes: []
   bottomBar: {fileID: 2114831825}
+  backgroundRenderers: []
+  fadeDuration: 1
 --- !u!4 &2114831824 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3996942754549125340, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}

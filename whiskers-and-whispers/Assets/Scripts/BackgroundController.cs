@@ -5,12 +5,11 @@ using UnityEngine.UI;
 public class BackgroundController : MonoBehaviour
 {
     public List<Image> backgrounds;
-    private int switchBackground = 0;
+    private int switchBackground = 1;
     public Animator animator;
 
     public void SwitchImage(Sprite sprite)
     {
-        switchBackground++;
         backgrounds[switchBackground].sprite = sprite;
         if (switchBackground == 1)
         {
@@ -28,6 +27,7 @@ public class BackgroundController : MonoBehaviour
         {
             animator.SetTrigger("SwitchFourth");
         }
+        switchBackground++;
     }
 
     public void SetImage(Sprite sprite)
