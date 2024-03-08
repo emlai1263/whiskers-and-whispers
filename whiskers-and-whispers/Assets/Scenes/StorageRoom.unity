@@ -826,6 +826,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4044920494681139242, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
+      propertyPath: currentScene
+      value: 
+      objectReference: {fileID: 11400000, guid: eb9a83788107c0c408533dad26475f79, type: 2}
+    - target: {fileID: 4044920494681139242, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
       propertyPath: spritesPrefab
       value: 
       objectReference: {fileID: 1201967973}

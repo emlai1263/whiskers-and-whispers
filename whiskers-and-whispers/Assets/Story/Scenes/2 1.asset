@@ -41,12 +41,6 @@ MonoBehaviour:
   - text: 'You made it sound like the food bowl was overflowing, not that there was
       a LITERAL MURDER!!! '
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
-  - text: "Don\u2019t be so prickly, Kiwie! How is anyone supposed to say something
-      like, \u201Cour Owner is dead\u201D? "
-    speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-  - text: "I could barely get a hold of my own emotions before Ryan and Dug\u2019s
-      argument cuts off my train of thought. "
-    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
   - text: "I could barely get a hold of my own emotions before Ryan and Dug\u2019s
       argument cuts off my train of thought. "
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
