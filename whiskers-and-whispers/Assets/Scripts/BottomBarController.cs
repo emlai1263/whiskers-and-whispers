@@ -72,6 +72,7 @@ public class BottomBarController : MonoBehaviour
         personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
         personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
         barText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
+        sprite_empty.sprite = currentScene.sentences[sentenceIndex].sprite;
     }
 
     public void SkipTyping()
