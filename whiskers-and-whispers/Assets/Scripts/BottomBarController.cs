@@ -52,28 +52,33 @@ public class BottomBarController : MonoBehaviour
     }
     public void PlayNextScentence()
     {
-        if (state == State.PLAYING && (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)))
-        {
-            // If currently typing, skip to the end
-            StopAllCoroutines();
-            barText.text = currentScene.sentences[sentenceIndex].text;
-            state = State.COMPLETED;
-            return;
-        }
+        // sentenceIndex++;
+        // if (state == State.PLAYING)
+        // {
+        //     // If currently typing, skip to the end
+        //     StopCoroutine("TypeText");
+        //     barText.text = currentScene.sentences[sentenceIndex].text;
+        //     state = State.COMPLETED;
+        // }
 
-        if (sentenceIndex + 1 < currentScene.sentences.Count)
-        {
-            sentenceIndex++;
-            StartCoroutine(TypeText(currentScene.sentences[sentenceIndex].text));
-            personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
-            personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
-            barText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
-            sprite_empty.sprite = currentScene.sentences[sentenceIndex].sprite;
-        }
-        // StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
-        // personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
-        // personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
-        // barText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
+        // else
+        // {
+        //     StartCoroutine(TypeText(currentScene.sentences[sentenceIndex].text));
+        //     personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
+        //     personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
+        //     barText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
+        // }
+        StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
+        personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
+        personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
+        barText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
+    }
+
+    public void SkipTyping()
+    {
+        StopCoroutine("TypeText");
+        barText.text = currentScene.sentences[sentenceIndex].text;
+        state = State.COMPLETED;
     }
 
     public bool IsCompleted()
