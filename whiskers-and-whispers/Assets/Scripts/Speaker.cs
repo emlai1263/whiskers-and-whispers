@@ -1,5 +1,5 @@
 using UnityEngine;
-using System.Collections.Generic;
+using UnityEngine.UI;
 
 [CreateAssetMenu(fileName = "NewSpeaker", menuName = "Data/New Speaker")]
 [System.Serializable]
