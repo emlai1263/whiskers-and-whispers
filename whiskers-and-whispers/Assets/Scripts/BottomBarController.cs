@@ -10,7 +10,7 @@ public class BottomBarController : MonoBehaviour
 
     private int sentenceIndex = -1;
     public StoryScene currentScene;
-    public Image sprite_empty;
+    public SpriteRenderer sprite_empty;
     private State state = State.COMPLETED;
     //private Animator animator;
     private bool isHidden = false;
@@ -52,7 +52,7 @@ public class BottomBarController : MonoBehaviour
     }
     public void PlayNextScentence()
     {
-        if (state == State.PLAYING)
+        if (state == State.PLAYING && (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)))
         {
             // If currently typing, skip to the end
             StopAllCoroutines();
@@ -94,12 +94,12 @@ public class BottomBarController : MonoBehaviour
 
         while (state != State.COMPLETED)
         {
-            if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
-            {
-                barText.text = text;
-                state = State.COMPLETED;
-                break;
-            }
+            //if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+            //{
+            //    barText.text = text;
+            //    state = State.COMPLETED;
+            //    break;
+            //}
             barText.text += text[wordIndex];
             yield return new WaitForSeconds(0.03f);
             if (++wordIndex == text.Length)
