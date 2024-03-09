@@ -15,9 +15,13 @@ MonoBehaviour:
   sentences:
   - text: "My bed\u2026"
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 0}
   - text: "\u2026"
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
   - text: "\u2026 is so cozy."
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 0}
   background: {fileID: 21300000, guid: 66d788f1f7c240f4daeaeeb3fee578cb, type: 3}
+  backgroundOpacity: 1
   nextScene: {fileID: 11400000, guid: 4888bc867f4fbfd489f061991fd982b9, type: 2}

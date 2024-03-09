@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [CreateAssetMenu(fileName = "NewStoryScene", menuName = "Data/New Story Scene")]
 [System.Serializable]
@@ -17,6 +18,7 @@ public class StoryScene : ScriptableObject
     {
         public string text;
         public Speaker speaker;
+        public Sprite sprite;
         // public List<Action> actions;
         // [System.Serializable]
         // public struct Action

@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class BottomBarController : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class BottomBarController : MonoBehaviour
 
     private int sentenceIndex = -1;
     public StoryScene currentScene;
+    public Image sprite_empty;
     private State state = State.COMPLETED;
     //private Animator animator;
     private bool isHidden = false;
@@ -66,6 +68,7 @@ public class BottomBarController : MonoBehaviour
             personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
             personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
             barText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
+            sprite_empty.sprite = currentScene.sentences[sentenceIndex].sprite;
         }
         // StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
         // personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
@@ -91,6 +94,12 @@ public class BottomBarController : MonoBehaviour
 
         while (state != State.COMPLETED)
         {
+            if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+            {
+                barText.text = text;
+                state = State.COMPLETED;
+                break;
+            }
             barText.text += text[wordIndex];
             yield return new WaitForSeconds(0.03f);
             if (++wordIndex == text.Length)
