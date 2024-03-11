@@ -13,7 +13,7 @@ public class BottomBarController : MonoBehaviour
     public SpriteRenderer sprite_empty;
     private State state = State.COMPLETED;
     //private Animator animator;
-    private bool isHidden = false;
+    //private bool isHidden = false;
 
     private enum State
     {

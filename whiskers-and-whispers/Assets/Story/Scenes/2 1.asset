@@ -29,7 +29,7 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: e08159b2b7b687d4397edea712fc3441, type: 3}
   - text: "W-What\u2019s going on!? "
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: e08159b2b7b687d4397edea712fc3441, type: 3}
   - text: "How lucky that you were sleeping in the front\u2026~ It\u2019s so noisy
       in here. "
     speaker: {fileID: 11400000, guid: c79a115cb8c7ae44d9c5026a0a6ce523, type: 2}
@@ -43,7 +43,7 @@ MonoBehaviour:
   - text: "You could\u2019ve just told me that the Owner got MURDERED! What\u2019s
       wrong with you!? "
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: ead24f990a639464ab1fc3028de5859f, type: 3}
   - text: "Don\u2019t be so prickly, Kiwie! How is anyone supposed to say something
       like, \u201Cour Owner is dead\u201D? "
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
@@ -51,11 +51,11 @@ MonoBehaviour:
   - text: 'You made it sound like the food bowl was overflowing, not that there was
       a LITERAL MURDER!!! '
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: ead24f990a639464ab1fc3028de5859f, type: 3}
   - text: "I could barely get a hold of my own emotions before Ryan and Dug\u2019s
       argument cuts off my train of thought. "
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: ead24f990a639464ab1fc3028de5859f, type: 3}
   - text: 'WHO ELSE COULD IT HAVE BEEN!? You''ve been hissing at them ever since
       you''ve gone here!!!  '
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
@@ -81,94 +81,94 @@ MonoBehaviour:
   - text: "Ryan would help any new cat get comfortable in the cafe, but above all,
       they loved their owner with all their heart\u2026 "
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 78a1f42544afd3443ab39fc135628fc9, type: 3}
   - text: "In that scenario - killing the Owner would be\u2026 the worst crime anyone
       could do against Ryan. "
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 78a1f42544afd3443ab39fc135628fc9, type: 3}
   - text: "If there\u2019s only six of us, then\u2026  "
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 78a1f42544afd3443ab39fc135628fc9, type: 3}
   - text: "KIWIE\u2026!! You're here\u2026!! Thank goodness\u2026!!  "
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: 5c921a3c9d8f9a844b005356efb35c11, type: 3}
   - text: "You\u2019re acting as if Kiwie\u2019s a deciding factor\u2026 right now,
       you\u2019re acting no better than Dug, you know? "
     speaker: {fileID: 11400000, guid: c79a115cb8c7ae44d9c5026a0a6ce523, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 4041337ef704cc947b7952eecf171b11, type: 3}
   - text: 'No better than ME!? You useless cat! Whose side are you on!? '
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: e08159b2b7b687d4397edea712fc3441, type: 3}
   - text: "None of you are helpful at all - in fact, none of you even seem to care!
       This was the person who fed you, gave you shelter and love when no one else
       would\u2026  "
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
   - text: 'And this is how you react when they DIE!?!? '
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
   - text: "Ryan grows more hysterical by the moment\u2026 "
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
   - text: "Ryan, it\u2019s going to be okay\u2026! Please calm down\u2026 "
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
   - text: 'How can I calm down when nobody ELSE is freaking out!? '
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
   - text: "Maybe because you\u2019re a maniac! "
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: e08159b2b7b687d4397edea712fc3441, type: 3}
   - text: 'How golden coming from YOU! '
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 6bfbc92e799cacf4cb5688e4386cb2f5, type: 3}
   - text: "\u2026 *sniffle* \u2026 "
     speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: d88cae32d4d1c234ba192ed8c2f53d57, type: 3}
   - text: "Now now, everybody! Kiwie\u2019s right\u2026 do you know what happens
       if we don\u2019t calm down? "
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
   - text: 'WHAT! WHAT HAPPENS, HUH!? '
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 6bfbc92e799cacf4cb5688e4386cb2f5, type: 3}
   - text: ...
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
   - text: "There\u2019s still a killer here, you know\u2026 someone who is capable
       of killing a human is also capable of killing cats. "
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
   - text: "So\u2026 isn\u2019t it in everyone\u2019s best interest to make friends
       and not foes? "
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
   - text: "You\u2026! Argh\u2026 "
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 6bfbc92e799cacf4cb5688e4386cb2f5, type: 3}
   - text: ...
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
   - text: "The room falls silent again, only filled with Miffy\u2019s sniffles. "
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
   - text: "That doesn\u2019t mean that I still can\u2019t be angry\u2026! Kiwie!
       You believe me, right!? Dug\u2019s the only one capable of doing this! "
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 6bfbc92e799cacf4cb5688e4386cb2f5, type: 3}
   - text: 'Ryan looks at me expectantly. I look towards her opponent, Dug. '
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: 6bfbc92e799cacf4cb5688e4386cb2f5, type: 3}
   - text: "Dug is a Maine Coon, blind in one eye, and has quite the \u201Cno nonsense\u201D
       personality. I\u2019ve never enjoyed talking to him by sheer virtue of his
       low temper. "
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
   - text: 'What Ryan said was ultimately true. Dug was an aggressive and untrusting
       cat towards humans, the most out of all of us - and being the newest cat, he
       obviously has little time to adjust. '
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 0}
+    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
   - text: "I think\u2026  "
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
     sprite: {fileID: 0}

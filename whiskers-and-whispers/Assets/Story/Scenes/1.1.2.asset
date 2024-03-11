@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d71667be2b82d646ba91845a6046ddc, type: 3}
+  m_Name: 1.1.2
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Ryan being absolutely furious that their Owner was murdered\u2026 I could
+      never understand the pain they must be feeling."
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 0}
+  - text: "However\u2026 that\u2019s no excuse to throw out accusations."
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 0}
+  - text: "It\u2019s not that Dug\u2019s the only capable one of doing it, but\u2026
+      we should really think more thoroughly before jumping to conclusions."
+    speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
+    sprite: {fileID: 0}
+  - text: "\u2026!"
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+  - text: "You\u2026? Even you too..?"
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+    sprite: {fileID: 21300000, guid: 78a1f42544afd3443ab39fc135628fc9, type: 3}
+  - text: "I can\u2019t believe it\u2026 I can\u2019t believe you\u2026!"
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+    sprite: {fileID: 21300000, guid: 78a1f42544afd3443ab39fc135628fc9, type: 3}
+  - text: Ryan runs out of the room in a distraught anger. Everyone in the room watches
+      as Ryan leaves, and a silence falls over.
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 21300000, guid: 78a1f42544afd3443ab39fc135628fc9, type: 3}
+  - text: "\u2026"
+    speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
+    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+  - text: "Dug looks at me with an expression that seems like he\u2019s saying \u201Cthank
+      you.\u201D"
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 21300000, guid: 29a28c0830b7e084f95f5327204d1ecc, type: 3}
+  - text: "How exciting! To think a situation like this\u2026 a murder, done by a
+      cat towards a human too\u2026 it\u2019s the most exciting thing that has happened
+      in a while!"
+    speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
+    sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
+  - text: "\u2026 Maniac. A human was just as capable - even more capable - than
+      any of us."
+    speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
+    sprite: {fileID: 21300000, guid: 9ebdf4d7477aa6e48acfda46a4a786e7, type: 3}
+  - text: "Oh, but this one smells like a murder, y\u2019know\u2026?"
+    speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
+    sprite: {fileID: 21300000, guid: e16bb1fd29fbce549abcf23c93e1dedb, type: 3}
+  - text: "\u2026 To get to the truth, you have to figure out all of the clues and
+      go from there."
+    speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
+    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+  - text: "Since you defended me, I\u2019ll help you out. Let\u2019s look for clues."
+    speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
+    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+  background: {fileID: 21300000, guid: f14e48895cfa22b41893cf287e2b0c81, type: 3}
+  backgroundOpacity: 1
+  nextScene: {fileID: 0}
