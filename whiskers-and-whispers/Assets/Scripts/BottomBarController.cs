@@ -1,6 +1,7 @@
 using System.Collections;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class BottomBarController : MonoBehaviour
 {
@@ -9,9 +10,10 @@ public class BottomBarController : MonoBehaviour
 
     private int sentenceIndex = -1;
     public StoryScene currentScene;
+    public SpriteRenderer sprite_empty;
     private State state = State.COMPLETED;
     //private Animator animator;
-    private bool isHidden = false;
+    //private bool isHidden = false;
 
     private enum State
     {
@@ -50,27 +52,34 @@ public class BottomBarController : MonoBehaviour
     }
     public void PlayNextScentence()
     {
-        if (state == State.PLAYING)
-        {
-            // If currently typing, skip to the end
-            StopAllCoroutines();
-            barText.text = currentScene.sentences[sentenceIndex].text;
-            state = State.COMPLETED;
-            return;
-        }
+        // sentenceIndex++;
+        // if (state == State.PLAYING)
+        // {
+        //     // If currently typing, skip to the end
+        //     StopCoroutine("TypeText");
+        //     barText.text = currentScene.sentences[sentenceIndex].text;
+        //     state = State.COMPLETED;
+        // }
 
-        if (sentenceIndex + 1 < currentScene.sentences.Count)
-        {
-            sentenceIndex++;
-            StartCoroutine(TypeText(currentScene.sentences[sentenceIndex].text));
-            personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
-            personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
-            barText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
-        }
-        // StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
-        // personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
-        // personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
-        // barText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
+        // else
+        // {
+        //     StartCoroutine(TypeText(currentScene.sentences[sentenceIndex].text));
+        //     personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
+        //     personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
+        //     barText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
+        // }
+        StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
+        personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
+        personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
+        barText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
+        sprite_empty.sprite = currentScene.sentences[sentenceIndex].sprite;
+    }
+
+    public void SkipTyping()
+    {
+        StopCoroutine("TypeText");
+        barText.text = currentScene.sentences[sentenceIndex].text;
+        state = State.COMPLETED;
     }
 
     public bool IsCompleted()
@@ -91,6 +100,12 @@ public class BottomBarController : MonoBehaviour
 
         while (state != State.COMPLETED)
         {
+            //if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+            //{
+            //    barText.text = text;
+            //    state = State.COMPLETED;
+            //    break;
+            //}
             barText.text += text[wordIndex];
             yield return new WaitForSeconds(0.03f);
             if (++wordIndex == text.Length)

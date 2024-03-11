@@ -29,19 +29,26 @@ public class GameController : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
-            if (state == State.IDLE && bottomBar.IsCompleted())
+            if (state == State.IDLE)
             {
-                if (bottomBar.IsLastSentece())
+                if (!bottomBar.IsCompleted())
                 {
-                    // PlayScene(currentScene.nextScene);
-                    StartCoroutine(SwitchScene(scenes[currentSceneIndex].nextScene));
-                    // currentScene = currentScene.nextScene;
-                    // bottomBar.PlayScene(currentScene);
-
+                    bottomBar.SkipTyping();
                 }
                 else
                 {
-                    bottomBar.PlayNextScentence();
+                    if (bottomBar.IsLastSentece())
+                    {
+                        // PlayScene(currentScene.nextScene);
+                        StartCoroutine(SwitchScene(scenes[currentSceneIndex].nextScene));
+                        // currentScene = currentScene.nextScene;
+                        // bottomBar.PlayScene(currentScene);
+
+                    }
+                    else
+                    {
+                        bottomBar.PlayNextScentence();
+                    }
                 }
             }
         }
