@@ -1315,10 +1315,10 @@ MonoBehaviour:
   m_text: 'The game will have 2 main portions of gameplay
 
     1. Overworld - WASD
-    to move, left to interact with certain items
+    to move, left click to interact with certain items
 
-    2. Visual novel - Click to
-    advance, make choices to further the story'
+    2. Visual novel - Click/space
+    bar to advance, make choices to further the story'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c3b7ab2a79509a3499a32ac813ecc9c4, type: 2}
   m_sharedMaterial: {fileID: -4557354729805356765, guid: c3b7ab2a79509a3499a32ac813ecc9c4, type: 2}
