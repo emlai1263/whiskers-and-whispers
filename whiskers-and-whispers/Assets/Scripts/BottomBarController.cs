@@ -72,6 +72,12 @@ public class BottomBarController : MonoBehaviour
         personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
         personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
         barText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
+        if (currentScene.sentences[sentenceIndex].speaker.speakerName == "") 
+        {
+            barText.fontStyle = FontStyles.Italic;
+        } else {
+            barText.fontStyle = FontStyles.Normal;
+        }
         sprite_empty.sprite = currentScene.sentences[sentenceIndex].sprite;
     }
 
