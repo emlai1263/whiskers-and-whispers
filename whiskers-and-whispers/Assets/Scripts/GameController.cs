@@ -17,6 +17,11 @@ public class GameController : MonoBehaviour
         IDLE, ANIMATE
     }
 
+    // sound stuff
+    private void Awake(){
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComonent<AudioManager>();
+    }
+
     void Start()
     {
         bottomBar.PlayScene(scenes[currentSceneIndex]);
