@@ -19,7 +19,7 @@ public class GameController : MonoBehaviour
 
     // sound stuff
     private void Awake(){
-        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComonent<AudioManager>();
+        //audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
     }
 
     void Start()

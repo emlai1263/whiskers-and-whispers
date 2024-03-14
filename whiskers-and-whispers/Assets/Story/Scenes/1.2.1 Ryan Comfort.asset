@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d71667be2b82d646ba91845a6046ddc, type: 3}
+  m_Name: 1.2.1 Ryan Comfort
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "I wasn\u2019t sure what to do, but Ryan seemed to jump at the opportunity,
+      licking Miffy\u2019s head in comfort."
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 0}
+  - text: "W-Wah\u2026"
+    speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
+    sprite: {fileID: 21300000, guid: d88cae32d4d1c234ba192ed8c2f53d57, type: 3}
+  - text: "There, do you feel better\u2026? I\u2019m not the best at this, though\u2026"
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+    sprite: {fileID: 21300000, guid: 5c921a3c9d8f9a844b005356efb35c11, type: 3}
+  - text: "I\u2026 I feel a little better, t-thank you\u2026"
+    speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
+    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+  - text: "That\u2019s good. I know that this situation is really scary."
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+    sprite: {fileID: 21300000, guid: 5c921a3c9d8f9a844b005356efb35c11, type: 3}
+  - text: "I-It is\u2026! The owner dying, and then everyone being mad at each other\u2026"
+    speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
+    sprite: {fileID: 21300000, guid: 91c43f3f2060aaa41aae0c71d1714962, type: 3}
+  - text: "I\u2026 I\u2019m sorry, that second part was my fault\u2026"
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+  - text: "No, i-it\u2019s okay\u2026 I\u2019d be mad if I were you, too."
+    speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
+    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+  - text: Miffy, did you happen to see anything last night?
+    speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
+    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+  - text: "I-I \u2026 I did see something."
+    speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
+    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+  - text: You did!? What?
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+  - text: "I-I saw someone go into the kitchen\u2026 another cat. I-I couldn\u2019t
+      tell who it was because it was dark but\u2026 then I heard some sharp, metal
+      sounds. It sounds like the container from outside\u2026 but not as deep."
+    speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
+    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+  - text: "The container from outside\u2026?"
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+  - text: "Are you\u2026 talking about the trash can?"
+    speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
+    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+  - text: "The trash can\u2026? That\u2019s what it is? T-Then yes, the trash can."
+    speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
+    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+  - text: "The trash can\u2026! Maybe they were trying to expose some sort of evidence?!
+      Come on, Kiwie, let\u2019s go!"
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+  background: {fileID: 21300000, guid: c228371247fc2d14fa768eaeacbe2138, type: 3}
+  backgroundOpacity: 1
+  nextScene: {fileID: 0}
