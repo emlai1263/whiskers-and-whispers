@@ -972,7 +972,7 @@ MonoBehaviour:
   - {fileID: 965011899}
   - {fileID: 1365317011}
   - {fileID: 917306714}
-  fadeDuration: 1
+  fadeDuration: 0.5
 --- !u!1001 &2049630435
 PrefabInstance:
   m_ObjectHideFlags: 0
