@@ -59,4 +59,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/G2.unity
     guid: ae8806cff7cf88c41aec931ae19236ba
+  - enabled: 1
+    path: Assets/Scenes/Overworld0.unity
+    guid: 5bda143372dbaf1499bc9baa9bbc0d6c
   m_configObjects: {}

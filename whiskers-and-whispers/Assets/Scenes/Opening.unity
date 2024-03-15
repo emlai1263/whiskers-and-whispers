@@ -957,7 +957,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1758835599}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fca1b98ececdf7e44bf1ff291de15f97, type: 3}
+  m_Script: {fileID: 11500000, guid: ff8294b712998de4d82d21cd54332aad, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scenes:
@@ -972,7 +972,6 @@ MonoBehaviour:
   - {fileID: 965011899}
   - {fileID: 1365317011}
   - {fileID: 917306714}
-  fadeDuration: 0.5
 --- !u!1001 &2049630435
 PrefabInstance:
   m_ObjectHideFlags: 0
