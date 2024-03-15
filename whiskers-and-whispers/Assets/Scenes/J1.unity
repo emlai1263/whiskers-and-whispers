@@ -759,7 +759,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   scenes:
-  - {fileID: 11400000, guid: 1ac36dbc756d0ab4d8be4746915a813b, type: 2}
+  - {fileID: 11400000, guid: 70c04a6a8133a4d45b90cbe4fbfed9af, type: 2}
   bottomBar: {fileID: 2114831825}
   backgroundRenderers:
   - {fileID: 36348345}
@@ -850,7 +850,7 @@ PrefabInstance:
     - target: {fileID: 4044920494681139242, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
       propertyPath: currentScene
       value: 
-      objectReference: {fileID: 11400000, guid: 1ac36dbc756d0ab4d8be4746915a813b, type: 2}
+      objectReference: {fileID: 11400000, guid: 70c04a6a8133a4d45b90cbe4fbfed9af, type: 2}
     - target: {fileID: 4044920494681139242, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
       propertyPath: sprite_empty
       value: 

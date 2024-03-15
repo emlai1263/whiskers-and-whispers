@@ -512,6 +512,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd60747901b14ae48be2c4289838ed10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  clickable: 1
+  disableAfterClick: 0
 --- !u!1 &397459020
 GameObject:
   m_ObjectHideFlags: 0
@@ -1484,6 +1486,7 @@ GameObject:
   - component: {fileID: 1647402507}
   - component: {fileID: 1647402509}
   - component: {fileID: 1647402508}
+  - component: {fileID: 1647402510}
   m_Layer: 5
   m_Name: dead_body_placeholder
   m_TagString: Untagged
@@ -1548,6 +1551,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647402506}
   m_CullTransparentMesh: 1
+--- !u!114 &1647402510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647402506}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd60747901b14ae48be2c4289838ed10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clickable: 1
+  disableAfterClick: 1
 --- !u!1 &1706058038
 GameObject:
   m_ObjectHideFlags: 0
@@ -1900,7 +1917,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 240371152}
-        m_TargetAssemblyTypeName: StorageSign, Assembly-CSharp
+        m_TargetAssemblyTypeName: ButtonSwitchScene, Assembly-CSharp
         m_MethodName: GoToScene
         m_Mode: 5
         m_Arguments:
