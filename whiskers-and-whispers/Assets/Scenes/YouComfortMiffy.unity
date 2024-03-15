@@ -351,7 +351,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: 3c7b8d6aeca7b8448b10b6428586f1e7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3c90dda23ec09c248a0918dc50b2ce00, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -755,13 +755,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 1758835599}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fca1b98ececdf7e44bf1ff291de15f97, type: 3}
+  m_Script: {fileID: 11500000, guid: e063863ec71a8f249b6e680c5ed2c98a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scenes:
   - {fileID: 11400000, guid: 72ea61f817952d44a99b0b9ca1c150da, type: 2}
   - {fileID: 11400000, guid: 78f102fc675e77447824382ce0139b9a, type: 2}
-  bottomBar: {fileID: 4044920494681139242, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
+  bottomBar: {fileID: 6709815893662802001}
   backgroundRenderers:
   - {fileID: 36348345}
 --- !u!4 &2114831824 stripped
@@ -840,7 +840,7 @@ PrefabInstance:
     - target: {fileID: 4044920494681139242, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
       propertyPath: currentScene
       value: 
-      objectReference: {fileID: 11400000, guid: eb9a83788107c0c408533dad26475f79, type: 2}
+      objectReference: {fileID: 11400000, guid: 72ea61f817952d44a99b0b9ca1c150da, type: 2}
     - target: {fileID: 4044920494681139242, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
       propertyPath: sprite_empty
       value: 
@@ -861,6 +861,17 @@ PrefabInstance:
       addedObject: {fileID: 978693412}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
+--- !u!114 &6709815893662802001 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4044920494681139242, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
+  m_PrefabInstance: {fileID: 6709815893662802000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 117e08a12a1b4fb4d9bd165686fb483b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 36348346}
   - component: {fileID: 36348345}
   m_Layer: 0
-  m_Name: cafe
+  m_Name: cafe_dining
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -652,8 +652,8 @@ GameObject:
   - component: {fileID: 1758835603}
   - component: {fileID: 1758835602}
   - component: {fileID: 1758835601}
-  - component: {fileID: 1758835604}
   - component: {fileID: 1758835600}
+  - component: {fileID: 1758835604}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -755,13 +755,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1758835599}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e063863ec71a8f249b6e680c5ed2c98a, type: 3}
+  m_Script: {fileID: 11500000, guid: fca1b98ececdf7e44bf1ff291de15f97, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scenes:
-  - {fileID: 11400000, guid: 6b0e507d5dcadfd4dba98bd253d4a0e5, type: 2}
-  - {fileID: 11400000, guid: 78f102fc675e77447824382ce0139b9a, type: 2}
-  bottomBar: {fileID: 6709815893662802001}
+  - {fileID: 11400000, guid: a1bce1cc69a61bf4083d08798ed4704f, type: 2}
+  bottomBar: {fileID: 2114831825}
   backgroundRenderers:
   - {fileID: 36348345}
 --- !u!4 &2114831824 stripped
@@ -769,6 +768,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3996942754549125340, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
   m_PrefabInstance: {fileID: 6709815893662802000}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2114831825 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4044920494681139242, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
+  m_PrefabInstance: {fileID: 6709815893662802000}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 117e08a12a1b4fb4d9bd165686fb483b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &6709815893662802000
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -840,7 +850,7 @@ PrefabInstance:
     - target: {fileID: 4044920494681139242, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
       propertyPath: currentScene
       value: 
-      objectReference: {fileID: 11400000, guid: 6b0e507d5dcadfd4dba98bd253d4a0e5, type: 2}
+      objectReference: {fileID: 11400000, guid: a1bce1cc69a61bf4083d08798ed4704f, type: 2}
     - target: {fileID: 4044920494681139242, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
       propertyPath: sprite_empty
       value: 
@@ -861,17 +871,6 @@ PrefabInstance:
       addedObject: {fileID: 978693412}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
---- !u!114 &6709815893662802001 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 4044920494681139242, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
-  m_PrefabInstance: {fileID: 6709815893662802000}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 117e08a12a1b4fb4d9bd165686fb483b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
