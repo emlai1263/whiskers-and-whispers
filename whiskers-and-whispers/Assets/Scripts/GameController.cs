@@ -18,9 +18,9 @@ public class GameController : MonoBehaviour
     }
 
     // sound stuff
-    private void Awake(){
-        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComonent<AudioManager>();
-    }
+    // private void Awake(){
+    //     audioManager = GameObject.FindGameObjectWithTag("Audio").GetComonent<AudioManager>();
+    // }
 
     void Start()
     {
