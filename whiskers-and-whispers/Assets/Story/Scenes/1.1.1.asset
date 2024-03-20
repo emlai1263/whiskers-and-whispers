@@ -83,6 +83,6 @@ MonoBehaviour:
   - text: "Kiwie, let\u2019s start looking for some evidence."
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
     sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
-  background: {fileID: 21300000, guid: f14e48895cfa22b41893cf287e2b0c81, type: 3}
+  background: {fileID: 21300000, guid: c228371247fc2d14fa768eaeacbe2138, type: 3}
   backgroundOpacity: 1
   nextScene: {fileID: 0}

@@ -9,7 +9,7 @@ public class GameController : MonoBehaviour
     public List<StoryScene> scenes;
     public BottomBarController bottomBar;
     public List<SpriteRenderer> backgroundRenderers;
-    public float fadeDuration = 1.0f;
+    private float fadeDuration = 0.4f;
     private int currentSceneIndex = 0;
     private State state = State.IDLE;
     private enum State

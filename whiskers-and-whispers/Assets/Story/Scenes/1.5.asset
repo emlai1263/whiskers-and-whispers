@@ -35,7 +35,7 @@ MonoBehaviour:
   - text: "\u2026? Who is \u201Cthey\u201D? "
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
     sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
-  - text: 'You can follow me. '
+  - text: 'You can follow me to the storage room. '
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
     sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
   - text: "Another thing about Junkat -- to put it in the simplest of terms\u2026

@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d71667be2b82d646ba91845a6046ddc, type: 3}
+  m_Name: 1.2.2 With Dug
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: The trash can was a large, steel container - I never had any interest in
+      opening it, but the others might have been a different story.
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 0}
+  - text: This is the one.
+    speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
+    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+  - text: Dug sits on the lever on the bottom of the trash can, and the lid flies
+      open.
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 21300000, guid: 29a28c0830b7e084f95f5327204d1ecc, type: 3}
+  - text: W-Whoa!
+    speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
+    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+  - text: How did you know that would happen?
+    speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
+    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+  - text: "\u2026 I\u2019ve been around a few trash cans in my life."
+    speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
+    sprite: {fileID: 21300000, guid: 29a28c0830b7e084f95f5327204d1ecc, type: 3}
+  - text: Anyways, if the sound is anything to go by, that means that this trash
+      can was opened and closed.
+    speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
+    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+  - text: Kiwie, do you think you can jump inside and look through?
+    speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
+    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+  - text: W-What!?!?
+    speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
+    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+  - text: "I\u2019m a little too big."
+    speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
+    sprite: {fileID: 21300000, guid: 29a28c0830b7e084f95f5327204d1ecc, type: 3}
+  - text: "\u2026"
+    speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
+    sprite: {fileID: 21300000, guid: 9ebdf4d7477aa6e48acfda46a4a786e7, type: 3}
+  - text: "Was I really going to stoop so low as to dumpster dive\u2026?"
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 21300000, guid: 9ebdf4d7477aa6e48acfda46a4a786e7, type: 3}
+  - text: Dug stares at me expectantly; even with just one good eye, his gaze pierces
+      into my soul.
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+  - text: "\u2026 O-Okay\u2026"
+    speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
+    sprite: {fileID: 21300000, guid: 29a28c0830b7e084f95f5327204d1ecc, type: 3}
+  - text: I ready myself before jumping up and diving into the trash can.
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 0}
+  background: {fileID: 21300000, guid: c228371247fc2d14fa768eaeacbe2138, type: 3}
+  backgroundOpacity: 1
+  nextScene: {fileID: 0}

@@ -63,6 +63,6 @@ MonoBehaviour:
   - text: "Since you defended me, I\u2019ll help you out. Let\u2019s look for clues."
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
     sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
-  background: {fileID: 21300000, guid: f14e48895cfa22b41893cf287e2b0c81, type: 3}
+  background: {fileID: 21300000, guid: c228371247fc2d14fa768eaeacbe2138, type: 3}
   backgroundOpacity: 1
   nextScene: {fileID: 0}

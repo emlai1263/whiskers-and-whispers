@@ -16,15 +16,20 @@ MonoBehaviour:
   - text: "Whiskers & Whipped Cream is the only home I\u2019ve known for a long time.
       In fact, I have very little memory of my life before Whiskers & Whipped Cream."
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 0}
   - text: "Some cats might think it\u2019s too cushiony of a lifestyle, but to me,
       there is no safer place in the world than this cafe."
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 0}
   - text: I wake up whenever I please. Lunch is when the sun rests in the middle
       of the backroom window. Dinner is when the sun just disappears past the windowsill.
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 0}
   - text: "I have to share a lot of things with the other cats here, but I don\u2019t
       mind it at all. I\u2019ve heard stories about the \u201Coutside world\u201D
       from other cats."
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 0}
   background: {fileID: 21300000, guid: 8070ca2fe3a7a2e46846d29ba6d42a66, type: 3}
+  backgroundOpacity: 1
   nextScene: {fileID: 11400000, guid: 9a21c55e76a935b49b4008589b97d990, type: 2}
