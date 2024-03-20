@@ -32,7 +32,7 @@ public class PlayerBullet : MonoBehaviour
     void Update()
     {
 		if(currentHealth <= 0){
-			// SceneManager.LoadSceneAsync(3); CHANGE SCENE
+			SceneManager.LoadSceneAsync(9);
 		}
     }
 
