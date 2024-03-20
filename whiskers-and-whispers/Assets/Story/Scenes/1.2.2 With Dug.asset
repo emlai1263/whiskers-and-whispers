@@ -62,6 +62,6 @@ MonoBehaviour:
   - text: I ready myself before jumping up and diving into the trash can.
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
     sprite: {fileID: 0}
-  background: {fileID: 21300000, guid: c228371247fc2d14fa768eaeacbe2138, type: 3}
+  background: {fileID: 21300000, guid: 8070ca2fe3a7a2e46846d29ba6d42a66, type: 3}
   backgroundOpacity: 1
   nextScene: {fileID: 0}
