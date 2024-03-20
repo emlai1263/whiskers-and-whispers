@@ -172,6 +172,6 @@ MonoBehaviour:
   - text: "I think\u2026  "
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
     sprite: {fileID: 0}
-  background: {fileID: 21300000, guid: b80cdc64cc18d4945ad11a272f46546a, type: 3}
+  background: {fileID: 21300000, guid: c228371247fc2d14fa768eaeacbe2138, type: 3}
   backgroundOpacity: 1
   nextScene: {fileID: 0}
