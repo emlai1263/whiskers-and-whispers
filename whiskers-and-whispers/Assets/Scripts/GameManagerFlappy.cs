@@ -1,6 +1,7 @@
 using System.IO.Pipes;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public Player player;
@@ -55,7 +56,7 @@ public class GameManager : MonoBehaviour
         Pause();
     }
 
-     public void IncreaseScore()
+    public void IncreaseScore()
     {
         score++;
         scoreText.text = score.ToString();
@@ -64,14 +65,16 @@ public class GameManager : MonoBehaviour
             GameEnd();
         }
     }
-    
+
     public void GameEnd()
     {
-        Time.timeScale = 0f;
-        player.enabled = false;
+        // Time.timeScale = 0f;
+        // player.enabled = false;
 
-        gameEnd.SetActive(true);
-        creditText.SetActive(true);
-        playButton2.SetActive(true);
+        // gameEnd.SetActive(true);
+        // creditText.SetActive(true);
+        // playButton2.SetActive(true);
+        SceneManager.LoadScene("BulletGame");
+
     }
 }
