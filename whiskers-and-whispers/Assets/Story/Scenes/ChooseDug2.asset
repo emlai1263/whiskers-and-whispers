@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d71667be2b82d646ba91845a6046ddc, type: 3}
+  m_Name: ChooseDug2
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "It was you - wasn\u2019t it, Dug\u2026? "
+    speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
+    sprite: {fileID: 0}
+  - text: 'Me? Me!? '
+    speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
+    sprite: {fileID: 21300000, guid: e08159b2b7b687d4397edea712fc3441, type: 3}
+  - text: "Hah\u2026! We went through this whole investigation -- we searched the
+      entire cafe -- only for you to go ahead and blame me!? "
+    speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
+    sprite: {fileID: 21300000, guid: e08159b2b7b687d4397edea712fc3441, type: 3}
+  - text: I started cowering at the realization that Dug was yelling at me -- had
+      I screwed up?
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 21300000, guid: e08159b2b7b687d4397edea712fc3441, type: 3}
+  - text: 'Hey, Dug! Leave Kiwie alone! '
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+  - text: "Do you really think I wouldn\u2019t be pissed that they\u2019re blaming
+      me for a murder I didn\u2019t cause!?"
+    speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
+    sprite: {fileID: 21300000, guid: e08159b2b7b687d4397edea712fc3441, type: 3}
+  - text: "*yawn* If that\u2019s the conclusion they\u2019ve come to, then you shouldn\u2019t
+      be so mad, right~?"
+    speaker: {fileID: 11400000, guid: c79a115cb8c7ae44d9c5026a0a6ce523, type: 2}
+    sprite: {fileID: 21300000, guid: 4041337ef704cc947b7952eecf171b11, type: 3}
+  - text: 'Oh, so Dug was the killer all along! '
+    speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
+    sprite: {fileID: 21300000, guid: e16bb1fd29fbce549abcf23c93e1dedb, type: 3}
+  - text: "I-I can\u2019t believe this\u2026"
+    speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
+    sprite: {fileID: 21300000, guid: d88cae32d4d1c234ba192ed8c2f53d57, type: 3}
+  - text: "FORGET IT! I don\u2019t need any of you - I\u2019m sick of it!"
+    speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
+    sprite: {fileID: 21300000, guid: e08159b2b7b687d4397edea712fc3441, type: 3}
+  - text: Dug bounds away, shutting out the cries from everyone else.
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 0}
+  - text: "Dug\u2026"
+    speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
+    sprite: {fileID: 0}
+  - text: "It\u2019s okay, Kiwie. You made the correct choice - we all knew that
+      it was Dug that did it."
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+  - text: "\u2026 "
+    speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
+    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+  - text: "\u2026 But was it really Dug\u2026? "
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+  background: {fileID: 21300000, guid: c228371247fc2d14fa768eaeacbe2138, type: 3}
+  backgroundOpacity: 1
+  nextScene: {fileID: 0}

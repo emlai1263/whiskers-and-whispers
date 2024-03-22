@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d71667be2b82d646ba91845a6046ddc, type: 3}
+  m_Name: ChooseJunkat2Part2
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: 'Everyone was asleep -- I thought the owner was too. I started looking
+      through the sink and found some drain cleaner that I wanted to drink. So I
+      hopped on the counter with it, and then opened it up. '
+    speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
+    sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
+  - text: "I didn't realize that the owner was still awake, or here for that matter.
+      They came out of their office and I quickly ran away. They seemed\u2026 tired.
+      They started rummaging through the cabinet; I couldn\u2019t tell what they
+      were doing since I was hiding. "
+    speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
+    sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
+  background: {fileID: 21300000, guid: c228371247fc2d14fa768eaeacbe2138, type: 3}
+  backgroundOpacity: 1
+  nextScene: {fileID: 11400000, guid: ea58e702ef872ca4b8ea38e9f559c0de, type: 2}

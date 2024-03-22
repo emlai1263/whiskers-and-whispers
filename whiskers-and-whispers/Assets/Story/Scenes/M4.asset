@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d71667be2b82d646ba91845a6046ddc, type: 3}
+  m_Name: M4
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "K-Kiwie\u2026?"
+    speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
+    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+  - text: "Miffy, hi\u2026 how are you doing?"
+    speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
+    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+  - text: "I-I\u2019m okay. Just\u2026 a little scared\u2026"
+    speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
+    sprite: {fileID: 21300000, guid: d88cae32d4d1c234ba192ed8c2f53d57, type: 3}
+  - text: "Are you? I\u2019m sorry\u2026"
+    speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
+    sprite: {fileID: 21300000, guid: d88cae32d4d1c234ba192ed8c2f53d57, type: 3}
+  - text: "N-No, it\u2019s okay\u2026! It\u2019s not your fault\u2026"
+    speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
+    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+  - text: "I\u2019m sorry I couldn\u2019t help you earlier. I also heard the banging
+      sound\u2026 I was just so scared in front of Dug, especially with Ryan yelling
+      at them and them yelling back."
+    speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
+    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+  - text: "Yeah, those two definitely weren\u2019t being helpful."
+    speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
+    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+  - text: "Um, I also had something else I wanted to tell you\u2026regarding what
+      might have happened."
+    speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
+    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+  - text: 'Oh? You have more information? '
+    speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
+    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+  - text: "Y-Yes. I saw something from that night. There was a cat prancing around,
+      and I heard them coughing\u2026 I couldn\u2019t tell who it was, but I think
+      they spit a hairball up."
+    speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
+    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+  - text: "Spat something up\u2026"
+    speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
+    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+  - text: "That\u2019s right. U-Um \u2026 i-it was in the dining area\u2026 maybe
+      you can find it\u2026?"
+    speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
+    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+  - text: "If I go to the dining area and find the hairball\u2026 I\u2019ll have
+      more information\u2026!"
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+  - text: Got it, thank you, Miffy!
+    speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
+    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+  - text: "Miffy bows their head at me before I sprint to the dining area to find
+      a hairball. Except\u2026 "
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+  - text: "How am I supposed to find a hairball when it\u2019s so dusty in the corners
+      of this place!?"
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 0}
+  background: {fileID: 21300000, guid: c228371247fc2d14fa768eaeacbe2138, type: 3}
+  backgroundOpacity: 1
+  nextScene: {fileID: 0}

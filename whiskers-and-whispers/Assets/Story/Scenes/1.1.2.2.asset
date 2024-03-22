@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d71667be2b82d646ba91845a6046ddc, type: 3}
+  m_Name: 1.1.2.2
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: Dug and I returned to the back room. Dug approaches Junkat; who happens
+      to be talking to Ryan.
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 0}
+  - text: "Oh, it\u2019s you two."
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+  - text: "Ryan looks at me with a twinge of disgust. They don\u2019t even pay Dug
+      a smidgen of attention, and Dug does the same."
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 21300000, guid: 6bfbc92e799cacf4cb5688e4386cb2f5, type: 3}
+  - text: Junkat, take a look at this.
+    speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
+    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+  - text: Dug puts down the bottle of drain cleaner.
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+  - text: Is it toxic to humans?
+    speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
+    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+  - text: "This\u2026 "
+    speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
+    sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
+  - text: Junkat examines the bottle, sniffing it intensely. Their eyes glaze over
+      the text on the back and front side.
+    speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
+    sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
+  - text: 'Right on the Churu, Dug! This will definitely kill a human if they eat
+      it! '
+    speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
+    sprite: {fileID: 21300000, guid: e16bb1fd29fbce549abcf23c93e1dedb, type: 3}
+  - text: "If they ate it\u2026"
+    speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
+    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+  - text: Huh? Is that it? You poisoned them!?
+    speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
+    sprite: {fileID: 21300000, guid: 6bfbc92e799cacf4cb5688e4386cb2f5, type: 3}
+  - text: Dug continues to give Ryan the cold shoulder.
+    speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
+    sprite: {fileID: 21300000, guid: 9ebdf4d7477aa6e48acfda46a4a786e7, type: 3}
+  - text: "Let\u2019s look around a bit more."
+    speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
+    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+  - text: "Right\u2026 "
+    speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
+    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+  - text: Ryan stares at me -- half betrayed and half defeated -- as I walk away
+      with Dug.
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 21300000, guid: 6bfbc92e799cacf4cb5688e4386cb2f5, type: 3}
+  background: {fileID: 21300000, guid: c228371247fc2d14fa768eaeacbe2138, type: 3}
+  backgroundOpacity: 1
+  nextScene: {fileID: 0}
