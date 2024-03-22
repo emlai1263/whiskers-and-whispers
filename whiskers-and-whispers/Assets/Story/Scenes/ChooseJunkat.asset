@@ -77,4 +77,4 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
   background: {fileID: 21300000, guid: c228371247fc2d14fa768eaeacbe2138, type: 3}
   backgroundOpacity: 1
-  nextScene: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: b4e5724f2edd8c748aef2c825e96558c, type: 2}

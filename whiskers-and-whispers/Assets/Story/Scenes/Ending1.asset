@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d71667be2b82d646ba91845a6046ddc, type: 3}
+  m_Name: Ending1
+  m_EditorClassIdentifier: 
+  sentences:
+  - text: "Thanks to Junkat\u2019s mechanics, we were all able to break out of the
+      cafe. Dug and Gus were able to bring the owner's body to a quiet patch of flowers
+      near the entrance. Ryan cried again, and didn\u2019t stop crying for a long
+      time "
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 0}
+  - text: "I\u2019d occasionally see Ryan and Dug together, near the owner\u2019s
+      body; I didn\u2019t bother them. They must\u2019ve sympathized with Ryan. "
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 0}
+  - text: 'We decided being in the cafe was the safest option for all of us. Even
+      with the owner around, we had nowhere to go but stay here. '
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 0}
+  - text: "I don\u2019t remember how many days have passed by since it happened.
+      It could have been weeks, or it could have been days. All I wanted was a cozy
+      life in the cafe.  "
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 0}
+  background: {fileID: 21300000, guid: c228371247fc2d14fa768eaeacbe2138, type: 3}
+  backgroundOpacity: 1
+  nextScene: {fileID: 11400000, guid: e9cf06c2b9dc1614d8aaf934fdb7c71a, type: 2}
