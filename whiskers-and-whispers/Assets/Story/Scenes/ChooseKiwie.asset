@@ -10,11 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0d71667be2b82d646ba91845a6046ddc, type: 3}
-  m_Name: tobecontinued
+  m_Name: ChooseKiwie
   m_EditorClassIdentifier: 
   sentences:
-  - text: To be continued...
-    speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
-  background: {fileID: 21300000, guid: b80cdc64cc18d4945ad11a272f46546a, type: 3}
+  - text: "The killer\u2026 was me? "
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 0}
+  - text: "What the heck, what am I thinking?! I\u2019m obviously not the killer!"
+    speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
+    sprite: {fileID: 0}
+  background: {fileID: 21300000, guid: c228371247fc2d14fa768eaeacbe2138, type: 3}
   backgroundOpacity: 1
   nextScene: {fileID: 0}
