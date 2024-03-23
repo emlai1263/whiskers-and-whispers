@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Backroom.unity
     guid: 0bcc469680bf63a4d9fd1f7b8b60f243
   - enabled: 1
-    path: Assets/Scenes/Flappy Bird.unity
+    path: Assets/Scenes/FlappyBirdDug.unity
     guid: 4568a7e16623fa943881880fd8fed74f
   - enabled: 1
     path: Assets/Scenes/G1.unity
