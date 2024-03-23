@@ -652,8 +652,8 @@ GameObject:
   - component: {fileID: 1758835603}
   - component: {fileID: 1758835602}
   - component: {fileID: 1758835601}
-  - component: {fileID: 1758835605}
   - component: {fileID: 1758835600}
+  - component: {fileID: 1758835604}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -746,7 +746,7 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!114 &1758835605
+--- !u!114 &1758835604
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -755,14 +755,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 1758835599}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ec004364989a0047b8b0652f907f561, type: 3}
+  m_Script: {fileID: 11500000, guid: b1e5b1d5fa9e5a148943f6cd531dc57a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   scenes:
-  - {fileID: 11400000, guid: 4a4747bc4b3c939489cfc24182006a75, type: 2}
-  - {fileID: 11400000, guid: dfbe477ea7766e84f847e67ae1cca32a, type: 2}
+  - {fileID: 11400000, guid: 82138a4c2358653449b2531cb235c37d, type: 2}
   bottomBar: {fileID: 2114831825}
-  backgroundRenderers: []
+  backgroundRenderers:
+  - {fileID: 36348345}
 --- !u!4 &2114831824 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3996942754549125340, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
@@ -850,7 +850,7 @@ PrefabInstance:
     - target: {fileID: 4044920494681139242, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
       propertyPath: currentScene
       value: 
-      objectReference: {fileID: 11400000, guid: 71a37d1155aa42148ad1e26c9c57e878, type: 2}
+      objectReference: {fileID: 11400000, guid: 70c04a6a8133a4d45b90cbe4fbfed9af, type: 2}
     - target: {fileID: 4044920494681139242, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
       propertyPath: sprite_empty
       value: 

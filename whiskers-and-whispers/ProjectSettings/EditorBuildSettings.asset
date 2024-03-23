@@ -33,13 +33,13 @@ EditorBuildSettings:
     path: Assets/Scenes/Dug/FlappyBirdDug.unity
     guid: 4568a7e16623fa943881880fd8fed74f
   - enabled: 1
-    path: Assets/Scenes/G1.unity
+    path: Assets/Scenes/Ryan/G1.unity
     guid: b511f48b374d184489bac5e9cf8526e9
   - enabled: 1
-    path: Assets/Scenes/J1.unity
+    path: Assets/Scenes/Ryan/J1.unity
     guid: 2b92c3d068fc62d498bdf06de9699d47
   - enabled: 1
-    path: Assets/Scenes/M1.unity
+    path: Assets/Scenes/Ryan/M1.unity
     guid: fd5b81b96df5c964f870fb723b5d195e
   - enabled: 1
     path: Assets/Scenes/YouComfortMiffy.unity
@@ -65,4 +65,34 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ryan/BulletGameRyan.unity
     guid: 955de10638f70594691d45e89b93f45c
+  - enabled: 1
+    path: Assets/Scenes/Dug/BulletGameDug.unity
+    guid: 8ee02576ede3b15409ec4132d46ab65e
+  - enabled: 1
+    path: Assets/Scenes/Dug/TrashFound.unity
+    guid: 8d758d39d3b6aa149b83ffbe907f4044
+  - enabled: 1
+    path: Assets/Scenes/Dug/OverworldDug3.unity
+    guid: 8f4530b4339c90d4e9a7fe2692733d2b
+  - enabled: 1
+    path: Assets/Scenes/Dug/J3.unity
+    guid: 3c5de66c5a476614997b209ffb343fbe
+  - enabled: 1
+    path: Assets/Scenes/Dug/M4.unity
+    guid: 28169802bc2f63c4aa1348afcbd50d4c
+  - enabled: 1
+    path: Assets/Scenes/Dug/G4.unity
+    guid: 538fc0929040c464986e888c3d9c3e04
+  - enabled: 1
+    path: Assets/Scenes/Dug/R4.unity
+    guid: 1bc1e85ae90e13943afac7a6338c73f2
+  - enabled: 0
+    path: Assets/Scenes/Dug/AfterBulletDug.unity
+    guid: ea8b49d8c31616148b299530064e2393
+  - enabled: 1
+    path: Assets/Scenes/Dug/OverworldDug4.unity
+    guid: 25a20f4baaddd9b4e9e451ac631586b3
+  - enabled: 1
+    path: Assets/Scenes/Dug/AfterBullet2.unity
+    guid: 8e7be963a7aed4a43a0f6d60583aa8ce
   m_configObjects: {}

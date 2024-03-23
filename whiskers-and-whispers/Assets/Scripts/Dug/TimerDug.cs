@@ -21,7 +21,7 @@ public class TimerDug : MonoBehaviour
         currentTimeText.text = (Mathf.RoundToInt(currentTime)).ToString();
 
         if(currentTime >= 30){
-			SceneManager.LoadSceneAsync(0);
+			SceneManager.LoadSceneAsync("AfterBullet2");
 		}
     }
     
