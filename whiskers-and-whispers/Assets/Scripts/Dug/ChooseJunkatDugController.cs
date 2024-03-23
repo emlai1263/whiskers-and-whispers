@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement; // Add this line for SceneManager
 
-public class AfterBulletDug : MonoBehaviour
+public class ChooseJunkatControllerDug : MonoBehaviour
 {
     public List<StoryScene> scenes;
     public BottomBarController bottomBar;
@@ -70,7 +70,7 @@ public class AfterBulletDug : MonoBehaviour
         if (scene == null)
         {
             // Load the "Overworld" scene
-            SceneManager.LoadScene("SelectionScreenDug");
+            SceneManager.LoadScene("Ending");
         }
         state = State.ANIMATE;
         // Fade out current background

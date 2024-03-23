@@ -127,7 +127,7 @@ EditorBuildSettings:
     guid: 8e7be963a7aed4a43a0f6d60583aa8ce
   - enabled: 1
     path: Assets/Scenes/Dug/AfterBulletDug.unity
-    guid: 05124d6d6995c8b4a963c8fea29da6c7
+    guid: 2e238bf563aa48d45a189b715534d517
   - enabled: 1
     path: Assets/Scenes/Dug/BulletGameDug.unity
     guid: 8ee02576ede3b15409ec4132d46ab65e
@@ -155,4 +155,25 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dug/D4.unity
     guid: 423f700749ad3434ead85d64c7d4225f
+  - enabled: 1
+    path: Assets/Scenes/Dug/ChooseMiffyDug.unity
+    guid: cca44300f0709a742bae407429322761
+  - enabled: 1
+    path: Assets/Scenes/Dug/ChooseDugDug.unity
+    guid: 158925c568cfd5e41a5c73f773806b11
+  - enabled: 1
+    path: Assets/Scenes/Dug/ChooseGusDug.unity
+    guid: 93bffb0457d662649a1c7aabc98b77a7
+  - enabled: 0
+    path: Assets/Scenes/Dug/ChooseJunkatDugOG.unity
+    guid: 8da23496b40de4d47aaaa8c3cb89a6f6
+  - enabled: 1
+    path: Assets/Scenes/Dug/ChooseKiwieDug.unity
+    guid: 21073448a08c2a1469f40e3130d5d70b
+  - enabled: 1
+    path: Assets/Scenes/Dug/ChooseRyanDug.unity
+    guid: 1655fde7f592ffe418a392ecd9a9d022
+  - enabled: 1
+    path: Assets/Scenes/Dug/ChooseJunkatDug.unity
+    guid: 5f30bae6f76b1fb4f95b856c78364946
   m_configObjects: {}

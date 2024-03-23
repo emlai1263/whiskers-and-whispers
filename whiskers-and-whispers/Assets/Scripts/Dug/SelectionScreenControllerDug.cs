@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement; // Add this line for SceneManager
 
-public class AfterBulletDug : MonoBehaviour
+public class SelectionScreenControllerDug : MonoBehaviour
 {
     public List<StoryScene> scenes;
     public BottomBarController bottomBar;
@@ -18,10 +18,9 @@ public class AfterBulletDug : MonoBehaviour
     }
 
     // sound stuff
-    private void Awake()
-    {
-        //audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
-    }
+    // private void Awake(){
+    //     audioManager = GameObject.FindGameObjectWithTag("Audio").GetComonent<AudioManager>();
+    // }
 
     void Start()
     {

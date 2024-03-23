@@ -341,7 +341,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 092b33aee89f8824a9c094ae3b5430f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: ChooseKiwie
+  sceneName: ChooseKiwieDug
 --- !u!1 &331567352
 GameObject:
   m_ObjectHideFlags: 0
@@ -390,7 +390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 092b33aee89f8824a9c094ae3b5430f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: ChooseDug
+  sceneName: ChooseDugDug
 --- !u!1 &616709134
 GameObject:
   m_ObjectHideFlags: 0
@@ -403,7 +403,7 @@ GameObject:
   - component: {fileID: 616709137}
   - component: {fileID: 616709136}
   m_Layer: 5
-  m_Name: KiwieDidIt
+  m_Name: Kiwie
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -573,7 +573,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 092b33aee89f8824a9c094ae3b5430f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: ChooseRyan
+  sceneName: ChooseRyanDug
 --- !u!1 &787231259
 GameObject:
   m_ObjectHideFlags: 0
@@ -901,7 +901,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 092b33aee89f8824a9c094ae3b5430f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: ChooseJunkat
+  sceneName: ChooseJunkatDug
 --- !u!1 &978693409
 GameObject:
   m_ObjectHideFlags: 0
@@ -1762,16 +1762,16 @@ RectTransform:
   - {fileID: 146611497}
   - {fileID: 1201967974}
   - {fileID: 2114831824}
-  - {fileID: 1018654145}
-  - {fileID: 2524631244062667051}
   - {fileID: 1811005032}
   - {fileID: 207569625}
+  - {fileID: 1785348453}
+  - {fileID: 331567353}
+  - {fileID: 1018654145}
+  - {fileID: 2524631244062667051}
   - {fileID: 881214542}
   - {fileID: 664920712}
   - {fileID: 5901917262069193111}
   - {fileID: 8759953643568849952}
-  - {fileID: 1785348453}
-  - {fileID: 331567353}
   - {fileID: 2101741591}
   - {fileID: 975846878}
   m_Father: {fileID: 0}
@@ -1798,12 +1798,12 @@ MonoBehaviour:
   bottomBar: {fileID: 2114831825}
   backgroundRenderers:
   - {fileID: 36348345}
-  MiffyButton: {fileID: 0}
-  GusButton: {fileID: 0}
-  KiwieButton: {fileID: 0}
-  RyanButton: {fileID: 0}
-  DugButton: {fileID: 0}
-  JunkatButton: {fileID: 0}
+  MiffyButton: {fileID: 3452087127081864920}
+  GusButton: {fileID: 3491930981499352580}
+  KiwieButton: {fileID: 207569624}
+  RyanButton: {fileID: 664920711}
+  DugButton: {fileID: 331567352}
+  JunkatButton: {fileID: 975846877}
   fadeDuration: 1
 --- !u!1 &1785348452
 GameObject:
@@ -2602,7 +2602,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 092b33aee89f8824a9c094ae3b5430f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: ChooseGus
+  sceneName: ChooseGusDug
 --- !u!1 &4115170779947091610
 GameObject:
   m_ObjectHideFlags: 0
@@ -2918,7 +2918,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 092b33aee89f8824a9c094ae3b5430f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sceneName: ChooseMiffy
+  sceneName: ChooseMiffyDug
 --- !u!224 &8759953643568849952
 RectTransform:
   m_ObjectHideFlags: 0
