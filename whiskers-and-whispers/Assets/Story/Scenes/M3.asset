@@ -21,10 +21,10 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
   - text: 'H-Hehe! '
     speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
-    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+    sprite: {fileID: 21300000, guid: f99cb2986a869df4a83f20dc1702ce58, type: 3}
   - text: Great job, Miff.
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
-    sprite: {fileID: 21300000, guid: 858687bd6742fd749b68b10d917505af, type: 3}
+    sprite: {fileID: 21300000, guid: b89cbe81bee9e5b479cf676a231ab659, type: 3}
   - text: We go on to chat about a few things before I decide to return to the investigation.
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
     sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}

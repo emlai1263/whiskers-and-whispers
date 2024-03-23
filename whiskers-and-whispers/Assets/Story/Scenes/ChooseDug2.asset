@@ -22,14 +22,14 @@ MonoBehaviour:
   - text: "Hah\u2026! We went through this whole investigation -- we searched the
       entire cafe -- only for you to go ahead and blame me!? "
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
-    sprite: {fileID: 21300000, guid: e08159b2b7b687d4397edea712fc3441, type: 3}
+    sprite: {fileID: 21300000, guid: 304ca6fae08bd404492499886fd1c5a6, type: 3}
   - text: I started cowering at the realization that Dug was yelling at me -- had
       I screwed up?
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
     sprite: {fileID: 21300000, guid: e08159b2b7b687d4397edea712fc3441, type: 3}
   - text: 'Hey, Dug! Leave Kiwie alone! '
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: a2fe16a047e33584988d6a7255841886, type: 3}
   - text: "Do you really think I wouldn\u2019t be pissed that they\u2019re blaming
       me for a murder I didn\u2019t cause!?"
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
@@ -37,7 +37,7 @@ MonoBehaviour:
   - text: "*yawn* If that\u2019s the conclusion they\u2019ve come to, then you shouldn\u2019t
       be so mad, right~?"
     speaker: {fileID: 11400000, guid: c79a115cb8c7ae44d9c5026a0a6ce523, type: 2}
-    sprite: {fileID: 21300000, guid: 4041337ef704cc947b7952eecf171b11, type: 3}
+    sprite: {fileID: 21300000, guid: 63da1fa933b9381429819e3da06583ed, type: 3}
   - text: 'Oh, so Dug was the killer all along! '
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
     sprite: {fileID: 21300000, guid: e16bb1fd29fbce549abcf23c93e1dedb, type: 3}
@@ -46,7 +46,7 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: d88cae32d4d1c234ba192ed8c2f53d57, type: 3}
   - text: "FORGET IT! I don\u2019t need any of you - I\u2019m sick of it!"
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
-    sprite: {fileID: 21300000, guid: e08159b2b7b687d4397edea712fc3441, type: 3}
+    sprite: {fileID: 21300000, guid: 304ca6fae08bd404492499886fd1c5a6, type: 3}
   - text: Dug bounds away, shutting out the cries from everyone else.
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
     sprite: {fileID: 0}
@@ -56,7 +56,7 @@ MonoBehaviour:
   - text: "It\u2019s okay, Kiwie. You made the correct choice - we all knew that
       it was Dug that did it."
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: a273e2954f4769e448623028719996dd, type: 3}
   - text: "\u2026 "
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
     sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}

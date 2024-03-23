@@ -15,35 +15,35 @@ MonoBehaviour:
   sentences:
   - text: "Hiya Kiwie\u2026.~ how\u2019s it going?"
     speaker: {fileID: 11400000, guid: c79a115cb8c7ae44d9c5026a0a6ce523, type: 2}
-    sprite: {fileID: 21300000, guid: 4041337ef704cc947b7952eecf171b11, type: 3}
+    sprite: {fileID: 21300000, guid: 41eb36e025817074e98ae85ce4c33907, type: 3}
   - text: "It\u2019s been fine. We found some evidence thanks to your account."
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
     sprite: {fileID: 21300000, guid: 4041337ef704cc947b7952eecf171b11, type: 3}
   - text: "That\u2019s purrrrfect!"
     speaker: {fileID: 11400000, guid: c79a115cb8c7ae44d9c5026a0a6ce523, type: 2}
-    sprite: {fileID: 21300000, guid: 4041337ef704cc947b7952eecf171b11, type: 3}
+    sprite: {fileID: 21300000, guid: 9e0076748c0d3fa479333ed832c75391, type: 3}
   - text: Do you know anything else that happened last night? Maybe involving the
       kitchen?
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
-    sprite: {fileID: 21300000, guid: 4041337ef704cc947b7952eecf171b11, type: 3}
+    sprite: {fileID: 21300000, guid: 63da1fa933b9381429819e3da06583ed, type: 3}
   - text: "Sorry, I\u2019ve told you all I know."
     speaker: {fileID: 11400000, guid: c79a115cb8c7ae44d9c5026a0a6ce523, type: 2}
-    sprite: {fileID: 21300000, guid: 4041337ef704cc947b7952eecf171b11, type: 3}
+    sprite: {fileID: 21300000, guid: 92d4db5ff0174f746a8dc43eacb3748b, type: 3}
   - text: "Though, if you ask me\u2026"
     speaker: {fileID: 11400000, guid: c79a115cb8c7ae44d9c5026a0a6ce523, type: 2}
     sprite: {fileID: 21300000, guid: 4041337ef704cc947b7952eecf171b11, type: 3}
   - text: "\u2026 "
     speaker: {fileID: 11400000, guid: c79a115cb8c7ae44d9c5026a0a6ce523, type: 2}
-    sprite: {fileID: 21300000, guid: 4041337ef704cc947b7952eecf171b11, type: 3}
+    sprite: {fileID: 21300000, guid: bf7c9aa6003137d4f849a6da1844a962, type: 3}
   - text: 'Nevermind~ '
     speaker: {fileID: 11400000, guid: c79a115cb8c7ae44d9c5026a0a6ce523, type: 2}
-    sprite: {fileID: 21300000, guid: 4041337ef704cc947b7952eecf171b11, type: 3}
+    sprite: {fileID: 21300000, guid: 9e0076748c0d3fa479333ed832c75391, type: 3}
   - text: "\u2026 "
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
     sprite: {fileID: 21300000, guid: 4041337ef704cc947b7952eecf171b11, type: 3}
   - text: '(How infuriating..) '
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 21300000, guid: 4041337ef704cc947b7952eecf171b11, type: 3}
+    sprite: {fileID: 21300000, guid: 9e0076748c0d3fa479333ed832c75391, type: 3}
   background: {fileID: 21300000, guid: c228371247fc2d14fa768eaeacbe2138, type: 3}
   backgroundOpacity: 1
   nextScene: {fileID: 0}

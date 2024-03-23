@@ -23,10 +23,10 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
   - text: Everyone! We think we figured it out!
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: 15135f57ae253014eb76789b079dbc88, type: 3}
   - text: The other cats gather around; as Ryan bares their teeth at Junkat.
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 21300000, guid: 6bfbc92e799cacf4cb5688e4386cb2f5, type: 3}
+    sprite: {fileID: 21300000, guid: a273e2954f4769e448623028719996dd, type: 3}
   - text: It was you! You were the one who killed the owner!
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
     sprite: {fileID: 21300000, guid: 6bfbc92e799cacf4cb5688e4386cb2f5, type: 3}
@@ -35,7 +35,7 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 6bfbc92e799cacf4cb5688e4386cb2f5, type: 3}
   - text: "Me\u2026 you think I was the one who killed the owner?"
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-    sprite: {fileID: 21300000, guid: e16bb1fd29fbce549abcf23c93e1dedb, type: 3}
+    sprite: {fileID: 21300000, guid: 91bd4efe60c03fa498e2be32546df8f2, type: 3}
   - text: You are the one who's able to decipher the bottle of drain cleaner, and
       you're the only one who could have known that it was poisonous!
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
@@ -43,10 +43,10 @@ MonoBehaviour:
   - text: "Second of all, we found a hairball from the night before -- all orange!
       It\u2019s your coat!"
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: 6bfbc92e799cacf4cb5688e4386cb2f5, type: 3}
+    sprite: {fileID: 21300000, guid: a2fe16a047e33584988d6a7255841886, type: 3}
   - text: Everyone's eyes land on Junkat. Their expression grows nervous.
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 21300000, guid: e16bb1fd29fbce549abcf23c93e1dedb, type: 3}
+    sprite: {fileID: 21300000, guid: 91bd4efe60c03fa498e2be32546df8f2, type: 3}
   - text: "This\u2026 this is a misunderstanding. I have no reason to kill the owner!
       I was the one who helped you decipher the drain cleaner, and that hairball
       could have been from days ago!"
@@ -58,19 +58,19 @@ MonoBehaviour:
   - text: "A-And, and if you deciphered it\u2026 it would\u2019ve been suspicious
       if you hadn\u2019t since you\u2019re the only one who can read!"
     speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
-    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+    sprite: {fileID: 21300000, guid: b89cbe81bee9e5b479cf676a231ab659, type: 3}
   - text: Junkat looks around defensively, shaking their head.
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
     sprite: {fileID: 21300000, guid: e16bb1fd29fbce549abcf23c93e1dedb, type: 3}
   - text: You guys got it all wrong! I didn't do anything wrong! I didn't kill them!
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-    sprite: {fileID: 21300000, guid: e16bb1fd29fbce549abcf23c93e1dedb, type: 3}
+    sprite: {fileID: 21300000, guid: feec32dcedff6f146969764f9d2dafc3, type: 3}
   - text: "Jig\u2019s up, then. Why\u2019d you do it?"
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
     sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
   - text: Junkat is silent as they try to figure out what to say next.
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+    sprite: {fileID: 21300000, guid: dd0f25f3f7e103444af84ffa919810e3, type: 3}
   - text: "I didn't\u2026 I swear. Last night\u2026 I was just doing what I usually
       did."
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}

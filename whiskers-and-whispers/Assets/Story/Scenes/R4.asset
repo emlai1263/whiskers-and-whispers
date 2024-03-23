@@ -18,26 +18,26 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
   - text: Ryan stares at the floor hard, as if pondering something.
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: 89811c4b9c3199a4ab62391a13665ba5, type: 3}
   - text: "Ryan\u2026 "
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: 89811c4b9c3199a4ab62391a13665ba5, type: 3}
   - text: How are you feeling?
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: a273e2954f4769e448623028719996dd, type: 3}
   - text: "I mean\u2026 a lot of different things, I guess."
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
     sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
   - text: "Kiwie\u2026 do you really think Dug didn\u2019t do it?"
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: 89811c4b9c3199a4ab62391a13665ba5, type: 3}
   - text: "When I defended Dug, it wasn\u2019t because I didn\u2019t think they weren\u2019t
       guilty -- it was because I believed they were innocent."
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: 89811c4b9c3199a4ab62391a13665ba5, type: 3}
   - text: "I guess they call it \u201Cinnocent until proven guilty.\u201D"
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: a273e2954f4769e448623028719996dd, type: 3}
   - text: "But who\u2026 why\u2026."
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
     sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
@@ -47,11 +47,11 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
   - text: "\u2026 Okay, Kiwie."
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: 5c921a3c9d8f9a844b005356efb35c11, type: 3}
   - text: "Ryan nods, and falls back silent. Maybe it\u2019s best to leave them alone
       for now\u2026"
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: 5c921a3c9d8f9a844b005356efb35c11, type: 3}
   background: {fileID: 21300000, guid: c228371247fc2d14fa768eaeacbe2138, type: 3}
   backgroundOpacity: 1
   nextScene: {fileID: 0}

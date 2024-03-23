@@ -20,6 +20,6 @@ MonoBehaviour:
   - text: "Such cute cats\u2026 it's a shame that your owner died so suddenly\u2026"
     speaker: {fileID: 11400000, guid: 554f56880c54e0a4b81f56baf03488fb, type: 2}
     sprite: {fileID: 0}
-  background: {fileID: 21300000, guid: a6c01c7304f1c0546b7189ec88920a4a, type: 3}
+  background: {fileID: 21300000, guid: 9bbb4474373e162469a424963f636000, type: 3}
   backgroundOpacity: 1
   nextScene: {fileID: 11400000, guid: 1a10381d07d6e3e4a82476baf980e0ba, type: 2}

@@ -34,42 +34,42 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: e08159b2b7b687d4397edea712fc3441, type: 3}
   - text: "You\u2019re all the same. "
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
-    sprite: {fileID: 21300000, guid: e08159b2b7b687d4397edea712fc3441, type: 3}
+    sprite: {fileID: 21300000, guid: 304ca6fae08bd404492499886fd1c5a6, type: 3}
   - text: "He storms off, back to the front of the cafe. It\u2019s fine to let him
       go - not like he can run anywhere anyways."
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
     sprite: {fileID: 0}
   - text: 'Ryan bounds towards me and weeps. '
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 21300000, guid: 78a1f42544afd3443ab39fc135628fc9, type: 3}
+    sprite: {fileID: 21300000, guid: b27cacacb26e5744d84ba514cefa9665, type: 3}
   - text: "Kiwie, thank you\u2026! Nobody else was backing me up\u2026"
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
     sprite: {fileID: 21300000, guid: 78a1f42544afd3443ab39fc135628fc9, type: 3}
   - text: "You know that I don\u2019t usually act this way, but\u2026!"
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: 78a1f42544afd3443ab39fc135628fc9, type: 3}
+    sprite: {fileID: 21300000, guid: b27cacacb26e5744d84ba514cefa9665, type: 3}
   - text: "Hey, it\u2019s okay\u2026 "
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
-    sprite: {fileID: 21300000, guid: 78a1f42544afd3443ab39fc135628fc9, type: 3}
+    sprite: {fileID: 21300000, guid: b27cacacb26e5744d84ba514cefa9665, type: 3}
   - text: Ryan curls up next to me for a bit as they continue to weep, until they
       finally clear their eyes.
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
     sprite: {fileID: 21300000, guid: 78a1f42544afd3443ab39fc135628fc9, type: 3}
   - text: "S-Sorry\u2026 I\u2019m sorry\u2026"
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: 78a1f42544afd3443ab39fc135628fc9, type: 3}
+    sprite: {fileID: 21300000, guid: b27cacacb26e5744d84ba514cefa9665, type: 3}
   - text: "No, no, Ryan, it\u2019s okay\u2026 maybe it wasn\u2019t a murder\u2026"
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
     sprite: {fileID: 21300000, guid: 78a1f42544afd3443ab39fc135628fc9, type: 3}
   - text: "I wouldn\u2019t be so confident, you know. This whole thing\u2026"
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-    sprite: {fileID: 21300000, guid: ead24f990a639464ab1fc3028de5859f, type: 3}
+    sprite: {fileID: 21300000, guid: 347ecd6846be9374d8adfa877ef35ac2, type: 3}
   - text: "It reeks of \u201Cmurder.\u201D"
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
     sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
   - text: "Junkat is back to saying cryptic things, huh\u2026~?"
     speaker: {fileID: 11400000, guid: c79a115cb8c7ae44d9c5026a0a6ce523, type: 2}
-    sprite: {fileID: 21300000, guid: 4041337ef704cc947b7952eecf171b11, type: 3}
+    sprite: {fileID: 21300000, guid: 41eb36e025817074e98ae85ce4c33907, type: 3}
   - text: "Stop that, Junkat\u2026 it\u2019s not funny\u2026"
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
     sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
@@ -79,10 +79,10 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: ead24f990a639464ab1fc3028de5859f, type: 3}
   - text: "Evidence\u2026 you\u2019re right\u2026! Evidence, evidence\u2026"
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: a273e2954f4769e448623028719996dd, type: 3}
   - text: "Kiwie, let\u2019s start looking for some evidence."
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: 15135f57ae253014eb76789b079dbc88, type: 3}
   background: {fileID: 21300000, guid: c228371247fc2d14fa768eaeacbe2138, type: 3}
   backgroundOpacity: 1
   nextScene: {fileID: 0}

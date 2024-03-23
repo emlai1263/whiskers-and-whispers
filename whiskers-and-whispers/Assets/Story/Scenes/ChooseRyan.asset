@@ -24,11 +24,11 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
   - text: "Um, one more moment\u2026 "
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: a273e2954f4769e448623028719996dd, type: 3}
   - text: "I really don\u2019t want to be at the receiving end of their anger\u2026!
       It for sure wasn\u2019t them, though!"
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: a273e2954f4769e448623028719996dd, type: 3}
   background: {fileID: 21300000, guid: c228371247fc2d14fa768eaeacbe2138, type: 3}
   backgroundOpacity: 1
   nextScene: {fileID: 0}

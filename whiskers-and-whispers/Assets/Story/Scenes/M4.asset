@@ -24,15 +24,15 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: d88cae32d4d1c234ba192ed8c2f53d57, type: 3}
   - text: "Are you? I\u2019m sorry\u2026"
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
-    sprite: {fileID: 21300000, guid: d88cae32d4d1c234ba192ed8c2f53d57, type: 3}
+    sprite: {fileID: 21300000, guid: 1672543e8626e4d4480276919506b7d9, type: 3}
   - text: "N-No, it\u2019s okay\u2026! It\u2019s not your fault\u2026"
     speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
-    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+    sprite: {fileID: 21300000, guid: 1672543e8626e4d4480276919506b7d9, type: 3}
   - text: "I\u2019m sorry I couldn\u2019t help you earlier. I also heard the banging
       sound\u2026 I was just so scared in front of Dug, especially with Ryan yelling
       at them and them yelling back."
     speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
-    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+    sprite: {fileID: 21300000, guid: b89cbe81bee9e5b479cf676a231ab659, type: 3}
   - text: "Yeah, those two definitely weren\u2019t being helpful."
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
     sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
@@ -47,10 +47,10 @@ MonoBehaviour:
       and I heard them coughing\u2026 I couldn\u2019t tell who it was, but I think
       they spit a hairball up."
     speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
-    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+    sprite: {fileID: 21300000, guid: 858687bd6742fd749b68b10d917505af, type: 3}
   - text: "Spat something up\u2026"
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
-    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+    sprite: {fileID: 21300000, guid: 91c43f3f2060aaa41aae0c71d1714962, type: 3}
   - text: "That\u2019s right. U-Um \u2026 i-it was in the dining area\u2026 maybe
       you can find it\u2026?"
     speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
@@ -65,7 +65,7 @@ MonoBehaviour:
   - text: "Miffy bows their head at me before I sprint to the dining area to find
       a hairball. Except\u2026 "
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+    sprite: {fileID: 21300000, guid: f99cb2986a869df4a83f20dc1702ce58, type: 3}
   - text: "How am I supposed to find a hairball when it\u2019s so dusty in the corners
       of this place!?"
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}

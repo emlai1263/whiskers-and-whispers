@@ -17,17 +17,17 @@ MonoBehaviour:
       the sink and found some drain cleaner that I wanted to drink. So I hopped on
       the counter with it, and then opened it up.
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-    sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
+    sprite: {fileID: 21300000, guid: 91bd4efe60c03fa498e2be32546df8f2, type: 3}
   - text: "I didn't realize that the owner was still awake, or here for that matter.
       They came out of their office and I quickly ran away. They seemed\u2026 tired.
       They started rummaging through the cabinet; I couldn\u2019t tell what they
       were doing since I was hiding."
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-    sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
+    sprite: {fileID: 21300000, guid: e16bb1fd29fbce549abcf23c93e1dedb, type: 3}
   - text: The kettle went off and they threw something away. I assume that they were
       making coffee or something. I didn't think anything of it!!
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-    sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
+    sprite: {fileID: 21300000, guid: e16bb1fd29fbce549abcf23c93e1dedb, type: 3}
   background: {fileID: 21300000, guid: 30bdead0525ce494fa359c5c974ed9d3, type: 3}
   backgroundOpacity: 1
   nextScene: {fileID: 11400000, guid: ea58e702ef872ca4b8ea38e9f559c0de, type: 2}

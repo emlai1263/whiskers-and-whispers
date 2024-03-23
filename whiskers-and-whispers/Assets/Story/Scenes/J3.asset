@@ -21,7 +21,7 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
   - text: "Aren\u2019t you a sweetiepie? I\u2019m okay. How about you, Mr. Investigator?"
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-    sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
+    sprite: {fileID: 21300000, guid: f8e5bccaedec04140a1299b7598a49fc, type: 3}
   - text: "I\u2019m\u2026 fine. "
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
     sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}

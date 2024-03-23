@@ -23,6 +23,6 @@ MonoBehaviour:
   - text: ...End.
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
     sprite: {fileID: 0}
-  background: {fileID: 21300000, guid: c66b8b3e414c8d74494cec9bc6ae2606, type: 3}
+  background: {fileID: 21300000, guid: 0e3a2a4eecc7c8644a06075122c16b47, type: 3}
   backgroundOpacity: 1
   nextScene: {fileID: 0}

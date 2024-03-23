@@ -19,7 +19,7 @@ MonoBehaviour:
     sprite: {fileID: 0}
   - text: "Oh, it\u2019s you two."
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: a2fe16a047e33584988d6a7255841886, type: 3}
   - text: "Ryan looks at me with a twinge of disgust. They don\u2019t even pay Dug
       a smidgen of attention, and Dug does the same."
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
@@ -29,13 +29,13 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
   - text: Dug puts down the bottle of drain cleaner.
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+    sprite: {fileID: 21300000, guid: dd0f25f3f7e103444af84ffa919810e3, type: 3}
   - text: Is it toxic to humans?
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
     sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
   - text: "This\u2026 "
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-    sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
+    sprite: {fileID: 21300000, guid: f8e5bccaedec04140a1299b7598a49fc, type: 3}
   - text: Junkat examines the bottle, sniffing it intensely. Their eyes glaze over
       the text on the back and front side.
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
@@ -43,7 +43,7 @@ MonoBehaviour:
   - text: 'Right on the Churu, Dug! This will definitely kill a human if they eat
       it! '
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-    sprite: {fileID: 21300000, guid: e16bb1fd29fbce549abcf23c93e1dedb, type: 3}
+    sprite: {fileID: 21300000, guid: 91bd4efe60c03fa498e2be32546df8f2, type: 3}
   - text: "If they ate it\u2026"
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
     sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
@@ -62,7 +62,7 @@ MonoBehaviour:
   - text: Ryan stares at me -- half betrayed and half defeated -- as I walk away
       with Dug.
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 21300000, guid: 6bfbc92e799cacf4cb5688e4386cb2f5, type: 3}
+    sprite: {fileID: 21300000, guid: a2fe16a047e33584988d6a7255841886, type: 3}
   background: {fileID: 21300000, guid: c228371247fc2d14fa768eaeacbe2138, type: 3}
   backgroundOpacity: 1
   nextScene: {fileID: 0}

@@ -26,40 +26,40 @@ MonoBehaviour:
   - text: I hop out of the trash can, carrying a bottle-- it's one of many that I've
       seen the owner use, but I have no idea what it does.
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+    sprite: {fileID: 21300000, guid: dd0f25f3f7e103444af84ffa919810e3, type: 3}
   - text: "What\u2026 is it?"
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
     sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
   - text: Looks like it's a bottle. A bottle of drain cleaner to be exact.
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
-    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+    sprite: {fileID: 21300000, guid: dd0f25f3f7e103444af84ffa919810e3, type: 3}
   - text: "Drain cleaner\u2026 ?"
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
     sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
   - text: It's this thing that humans use to clean the drains.
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
-    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+    sprite: {fileID: 21300000, guid: 9ebdf4d7477aa6e48acfda46a4a786e7, type: 3}
   - text: 'Oh. '
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
     sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
   - text: "I could\u2019ve probably guessed that."
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+    sprite: {fileID: 21300000, guid: 9ebdf4d7477aa6e48acfda46a4a786e7, type: 3}
   - text: "I guess this isn't useful then\u2026"
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
     sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
   - text: I wouldn't be so certain. I've been watching the owner carefully-- they
       haven't actually been cleaning anything recently. At least not the drains.
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
-    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+    sprite: {fileID: 21300000, guid: dd0f25f3f7e103444af84ffa919810e3, type: 3}
   - text: "Huh\u2026 ? What makes you so confident?"
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
-    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+    sprite: {fileID: 21300000, guid: dd0f25f3f7e103444af84ffa919810e3, type: 3}
   - text: "I'm new here. I'm watching that owner like a hawk. The last time they
       cleaned the drains\u2026 judging by the smell of everything, they haven't cleaned
       them for a while."
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
-    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+    sprite: {fileID: 21300000, guid: dd0f25f3f7e103444af84ffa919810e3, type: 3}
   - text: "Oh\u2026  "
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
     sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
@@ -86,7 +86,7 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
   - text: Unfortunately. Let's go back and talk to them.
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
-    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+    sprite: {fileID: 21300000, guid: dd0f25f3f7e103444af84ffa919810e3, type: 3}
   background: {fileID: 21300000, guid: c228371247fc2d14fa768eaeacbe2138, type: 3}
   backgroundOpacity: 1
   nextScene: {fileID: 11400000, guid: 3d240c84b17447d47823841bfede1b78, type: 2}

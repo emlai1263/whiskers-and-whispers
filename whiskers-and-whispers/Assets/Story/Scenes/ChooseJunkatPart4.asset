@@ -16,10 +16,10 @@ MonoBehaviour:
   - text: 'Of course, that''s what I''m saying! I have no reason to kill the owner!
       They''ve done nothing but good things for us. Why would I ever want them dead? '
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-    sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
+    sprite: {fileID: 21300000, guid: feec32dcedff6f146969764f9d2dafc3, type: 3}
   - text: 'Even someone like Dug. Dug can''t deny that they were helping them. '
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-    sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
+    sprite: {fileID: 21300000, guid: f8e5bccaedec04140a1299b7598a49fc, type: 3}
   - text: 'The entire cafe falls in silence as this revelation settles in. We were
       all busy being anxious and pointing fingers at each other that we didn''t even
       consider that the death might have been accidental. '
@@ -28,7 +28,7 @@ MonoBehaviour:
   - text: "Still\u2026 there\u2019s no excuse! You're still the reason that they're
       dead new. "
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: 6bfbc92e799cacf4cb5688e4386cb2f5, type: 3}
+    sprite: {fileID: 21300000, guid: a2fe16a047e33584988d6a7255841886, type: 3}
   - text: 'I know! I know! And I''m sorry! But I didn''t want them any more dead
       than anyone else did here! I mean, I''m still finding out about my own murder
       right now! '
@@ -37,7 +37,7 @@ MonoBehaviour:
   - text: "So noisy\u2026 enough. What's done is done. The owner's dead now, and
       we found out how it happened. "
     speaker: {fileID: 11400000, guid: c79a115cb8c7ae44d9c5026a0a6ce523, type: 2}
-    sprite: {fileID: 21300000, guid: 4041337ef704cc947b7952eecf171b11, type: 3}
+    sprite: {fileID: 21300000, guid: bf7c9aa6003137d4f849a6da1844a962, type: 3}
   - text: 'Another silence falls across everybody in the cafe. We all seem to glance
       at each other, seemingly asking -- what now? '
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}

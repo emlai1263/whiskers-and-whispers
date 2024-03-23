@@ -18,10 +18,10 @@ MonoBehaviour:
     sprite: {fileID: 0}
   - text: "\u2026?"
     speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
-    sprite: {fileID: 21300000, guid: d88cae32d4d1c234ba192ed8c2f53d57, type: 3}
+    sprite: {fileID: 21300000, guid: 1672543e8626e4d4480276919506b7d9, type: 3}
   - text: "It\u2019s going to be okay\u2026"
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
-    sprite: {fileID: 21300000, guid: d88cae32d4d1c234ba192ed8c2f53d57, type: 3}
+    sprite: {fileID: 21300000, guid: 1672543e8626e4d4480276919506b7d9, type: 3}
   - text: "Ah\u2026"
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
     sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
@@ -33,7 +33,7 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: d88cae32d4d1c234ba192ed8c2f53d57, type: 3}
   - text: "That\u2019s good. I know that this situation is really scary."
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: 5c921a3c9d8f9a844b005356efb35c11, type: 3}
+    sprite: {fileID: 21300000, guid: 15135f57ae253014eb76789b079dbc88, type: 3}
   - text: "I-It is\u2026! The owner dying, and then everyone being mad at each other\u2026"
     speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
     sprite: {fileID: 21300000, guid: d88cae32d4d1c234ba192ed8c2f53d57, type: 3}
@@ -48,28 +48,28 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
   - text: "I-I \u2026 I did see something."
     speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
-    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+    sprite: {fileID: 21300000, guid: b89cbe81bee9e5b479cf676a231ab659, type: 3}
   - text: You did!? What?
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: 15135f57ae253014eb76789b079dbc88, type: 3}
   - text: "I-I saw someone go into the kitchen\u2026 another cat. I-I couldn\u2019t
       tell who it was because it was dark but\u2026 then I heard some sharp, metal
       sounds. It sounds like the container from outside\u2026 but not as deep."
     speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
-    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+    sprite: {fileID: 21300000, guid: b89cbe81bee9e5b479cf676a231ab659, type: 3}
   - text: "The container from outside\u2026?"
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
     sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
   - text: "Are you\u2026 talking about the trash can?"
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: a273e2954f4769e448623028719996dd, type: 3}
   - text: "The trash can\u2026? That\u2019s what it is? T-Then yes, the trash can."
     speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
     sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
   - text: "The trash can\u2026! Maybe they were trying to expose some sort of evidence?!
       Come on, Kiwie, let\u2019s go!"
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: a273e2954f4769e448623028719996dd, type: 3}
   background: {fileID: 21300000, guid: c228371247fc2d14fa768eaeacbe2138, type: 3}
   backgroundOpacity: 1
   nextScene: {fileID: 11400000, guid: 78f102fc675e77447824382ce0139b9a, type: 2}

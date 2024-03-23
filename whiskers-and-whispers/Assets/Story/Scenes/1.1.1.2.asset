@@ -22,13 +22,13 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
   - text: It's a cat cafe, idiot. I can only go to so many places.
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
-    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+    sprite: {fileID: 21300000, guid: e08159b2b7b687d4397edea712fc3441, type: 3}
   - text: "Ryan starts growling; clearly threatened by Dug\u2019s words."
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 21300000, guid: 6bfbc92e799cacf4cb5688e4386cb2f5, type: 3}
+    sprite: {fileID: 21300000, guid: a2fe16a047e33584988d6a7255841886, type: 3}
   - text: Guys guys! Let's not fight okay?
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
-    sprite: {fileID: 21300000, guid: 6bfbc92e799cacf4cb5688e4386cb2f5, type: 3}
+    sprite: {fileID: 21300000, guid: a2fe16a047e33584988d6a7255841886, type: 3}
   - text: "My words don\u2019t seem to do much. Ryan continues growling but, after
       a few moments, they ultimately give it up."
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
@@ -54,7 +54,7 @@ MonoBehaviour:
   - text: Junkat examines the bottle, sniffing it intensely. Their eyes glaze over
       the text on the back and front side.
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 21300000, guid: e16bb1fd29fbce549abcf23c93e1dedb, type: 3}
+    sprite: {fileID: 21300000, guid: 91bd4efe60c03fa498e2be32546df8f2, type: 3}
   - text: 'Yep, this is definitely toxic to humans; specially if they ate it. '
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
     sprite: {fileID: 21300000, guid: e16bb1fd29fbce549abcf23c93e1dedb, type: 3}
@@ -67,17 +67,17 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: e08159b2b7b687d4397edea712fc3441, type: 3}
   - text: 'It''s not true! '
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: a2fe16a047e33584988d6a7255841886, type: 3}
   - text: Ryan, hey, calm down. We want to make sure that we catch the right person.
       I'm not saying that Dug isn't the murderer but that doesn't mean they are.
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: 89811c4b9c3199a4ab62391a13665ba5, type: 3}
   - text: "Kiwi\u2026  "
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: b27cacacb26e5744d84ba514cefa9665, type: 3}
   - text: "Hah\u2026 "
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: 78a1f42544afd3443ab39fc135628fc9, type: 3}
   - text: 'Fine. But when we find the evidence that incriminates you, it''ll be over. '
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
     sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}

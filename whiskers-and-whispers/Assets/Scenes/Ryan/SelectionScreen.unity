@@ -1798,12 +1798,12 @@ MonoBehaviour:
   bottomBar: {fileID: 2114831825}
   backgroundRenderers:
   - {fileID: 36348345}
-  MiffyButton: {fileID: 0}
-  GusButton: {fileID: 0}
-  KiwieButton: {fileID: 0}
-  RyanButton: {fileID: 0}
-  DugButton: {fileID: 0}
-  JunkatButton: {fileID: 0}
+  MiffyButton: {fileID: 1018654144}
+  GusButton: {fileID: 8951559451545940801}
+  KiwieButton: {fileID: 1811005031}
+  RyanButton: {fileID: 881214541}
+  DugButton: {fileID: 1785348452}
+  JunkatButton: {fileID: 2101741590}
   fadeDuration: 1
 --- !u!1 &1785348452
 GameObject:

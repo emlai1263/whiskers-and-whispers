@@ -15,11 +15,11 @@ MonoBehaviour:
   sentences:
   - text: 'Yes? '
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-    sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
+    sprite: {fileID: 21300000, guid: ead24f990a639464ab1fc3028de5859f, type: 3}
   - text: "You don\u2019t happen to know anything that happened last night, do you,
       Junkat? "
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: a273e2954f4769e448623028719996dd, type: 3}
   - text: 'Haheh, you think I was the one that did something now? '
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
     sprite: {fileID: 21300000, guid: 1ba28806c749aad449367271040db979, type: 3}
@@ -29,7 +29,7 @@ MonoBehaviour:
   - text: "I couldn\u2019t tell you~ I was lounging, sleeping. That\u2019s what a
       kitty like me does, isn\u2019t it? "
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-    sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
+    sprite: {fileID: 21300000, guid: 347ecd6846be9374d8adfa877ef35ac2, type: 3}
   - text: "Hardly a kitten, though, aren\u2019t they\u2026? "
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
     sprite: {fileID: 0}

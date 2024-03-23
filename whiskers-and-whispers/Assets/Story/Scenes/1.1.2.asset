@@ -32,11 +32,11 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 78a1f42544afd3443ab39fc135628fc9, type: 3}
   - text: "I can\u2019t believe it\u2026 I can\u2019t believe you\u2026!"
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: 78a1f42544afd3443ab39fc135628fc9, type: 3}
+    sprite: {fileID: 21300000, guid: b27cacacb26e5744d84ba514cefa9665, type: 3}
   - text: Ryan runs out of the room in a distraught anger. Everyone in the room watches
       as Ryan leaves, and a silence falls over.
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 21300000, guid: 78a1f42544afd3443ab39fc135628fc9, type: 3}
+    sprite: {fileID: 21300000, guid: b27cacacb26e5744d84ba514cefa9665, type: 3}
   - text: "\u2026"
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
     sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
@@ -48,7 +48,7 @@ MonoBehaviour:
       cat towards a human too\u2026 it\u2019s the most exciting thing that has happened
       in a while!"
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-    sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
+    sprite: {fileID: 21300000, guid: f8e5bccaedec04140a1299b7598a49fc, type: 3}
   - text: "\u2026 Maniac. A human was just as capable - even more capable - than
       any of us."
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
@@ -62,7 +62,7 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
   - text: "Since you defended me, I\u2019ll help you out. Let\u2019s look for clues."
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
-    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+    sprite: {fileID: 21300000, guid: dd0f25f3f7e103444af84ffa919810e3, type: 3}
   background: {fileID: 21300000, guid: c228371247fc2d14fa768eaeacbe2138, type: 3}
   backgroundOpacity: 1
   nextScene: {fileID: 0}

@@ -32,6 +32,6 @@ MonoBehaviour:
       life in the cafe.  "
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
     sprite: {fileID: 0}
-  background: {fileID: 21300000, guid: 129cf0067f40c4a4cba69102c249e419, type: 3}
+  background: {fileID: 21300000, guid: 803b9de0ae34caa4093c6f9461592641, type: 3}
   backgroundOpacity: 1
   nextScene: {fileID: 11400000, guid: e9cf06c2b9dc1614d8aaf934fdb7c71a, type: 2}

@@ -19,23 +19,23 @@ MonoBehaviour:
     sprite: {fileID: 0}
   - text: Kiwie, do you think you can open it?
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: a273e2954f4769e448623028719996dd, type: 3}
   - text: "I\u2019m .. not sure how to do it."
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
     sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
   - text: "Let me think\u2026 my Human would stand right\u2026 here."
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: a273e2954f4769e448623028719996dd, type: 3}
   - text: Ryan sits on the little lever on the bottom of the trash can, and the lid
       flies open.
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
     sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
   - text: Oh, there we go!
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: 5c921a3c9d8f9a844b005356efb35c11, type: 3}
+    sprite: {fileID: 21300000, guid: 15135f57ae253014eb76789b079dbc88, type: 3}
   - text: Ryan attempts to jump into the trash can, only for it to close again.
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: a273e2954f4769e448623028719996dd, type: 3}
   - text: "Hm\u2026 I guess I have to stay on here."
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
     sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
@@ -50,7 +50,7 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 5c921a3c9d8f9a844b005356efb35c11, type: 3}
   - text: Please?
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: 5c921a3c9d8f9a844b005356efb35c11, type: 3}
+    sprite: {fileID: 21300000, guid: 15135f57ae253014eb76789b079dbc88, type: 3}
   - text: "\u2026 Fine\u2026"
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
     sprite: {fileID: 21300000, guid: 5c921a3c9d8f9a844b005356efb35c11, type: 3}
