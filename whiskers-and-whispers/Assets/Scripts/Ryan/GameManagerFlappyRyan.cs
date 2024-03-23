@@ -60,7 +60,7 @@ public class GameManagerRyan : MonoBehaviour
     {
         score++;
         scoreText.text = score.ToString();
-        if (score == 20)
+        if (score == 2)
         {
             GameEnd();
         }
@@ -74,7 +74,7 @@ public class GameManagerRyan : MonoBehaviour
         // gameEnd.SetActive(true);
         // creditText.SetActive(true);
         // playButton2.SetActive(true);
-        SceneManager.LoadScene("BulletGameRyan");
+        SceneManager.LoadScene("AfterFlappyRyan");
 
     }
 }

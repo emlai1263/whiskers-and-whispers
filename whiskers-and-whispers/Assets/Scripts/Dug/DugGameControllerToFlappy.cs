@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement; // Add this line for SceneManager
 
-public class GameControllerToBullet : MonoBehaviour
+public class DugGameControllerToFlappy : MonoBehaviour
 {
     public List<StoryScene> scenes;
     public BottomBarController bottomBar;
@@ -70,7 +70,7 @@ public class GameControllerToBullet : MonoBehaviour
         if (scene == null)
         {
             // Load the "Overworld" scene
-            SceneManager.LoadScene("BulletGame");
+            SceneManager.LoadScene("FlappyBirdDug");
         }
         state = State.ANIMATE;
         // Fade out current background
