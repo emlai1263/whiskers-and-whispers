@@ -45,7 +45,11 @@ public class EndingController : MonoBehaviour
                 {
                     if (bottomBar.IsLastSentece())
                     {
-                        //
+                        // PlayScene(currentScene.nextScene);
+                        StartCoroutine(SwitchScene(scenes[currentSceneIndex].nextScene));
+                        // currentScene = currentScene.nextScene;
+                        // bottomBar.PlayScene(currentScene);
+
                     }
                     else
                     {
@@ -54,6 +58,31 @@ public class EndingController : MonoBehaviour
                 }
             }
         }
+    }
+
+    // private void PlayScene(StoryScene scene)
+    // {
+    //     StartCoroutine(SwitchScene(scene));
+    // }
+
+    private IEnumerator SwitchScene(StoryScene scene)
+    {
+        if (scene == null)
+        {
+            // Load the "Overworld" scene
+            //
+        }
+        state = State.ANIMATE;
+        // Fade out current background
+        yield return StartCoroutine(FadeBackground(0.0f));
+        currentSceneIndex = scenes.IndexOf(scene);
+        bottomBar.PlayScene(scene);
+        SetBackground(scene.background);
+        // Fade in new background
+        yield return StartCoroutine(FadeBackground(1.0f));
+        state = State.IDLE;
+
+
     }
 
     private IEnumerator FadeBackground(float targetOpacity)
