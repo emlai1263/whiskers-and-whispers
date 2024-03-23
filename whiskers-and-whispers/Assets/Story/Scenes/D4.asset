@@ -22,14 +22,14 @@ MonoBehaviour:
   - text: "That\u2019s fine. Hey, by the way\u2026 I didn\u2019t really put it into
       words earlier but\u2026 thanks again for defending me."
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
-    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+    sprite: {fileID: 21300000, guid: dd0f25f3f7e103444af84ffa919810e3, type: 3}
   - text: "That? It wasn\u2019t that big of a deal\u2026 I just thought Ryan was
       being a little unreasonable."
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
     sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
   - text: "Still\u2026 thanks a lot. "
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
-    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+    sprite: {fileID: 21300000, guid: dd0f25f3f7e103444af84ffa919810e3, type: 3}
   - text: "Dug smiles at me, if only a slight. It\u2019s weird when he\u2019s compassionate\u2026
       but not an entirely bad thing, I guess."
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}

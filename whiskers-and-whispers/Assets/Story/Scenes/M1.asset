@@ -15,7 +15,7 @@ MonoBehaviour:
   sentences:
   - text: '*sniffle*'
     speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
-    sprite: {fileID: 21300000, guid: d88cae32d4d1c234ba192ed8c2f53d57, type: 3}
+    sprite: {fileID: 21300000, guid: 1672543e8626e4d4480276919506b7d9, type: 3}
   - text: 'Miffy? Are you okay? '
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
     sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
@@ -23,7 +23,7 @@ MonoBehaviour:
       of their litter. By all definitions, they were non-confrontational. I don\u2019t
       think I ever saw them fight their way to any food or water. "
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: d88cae32d4d1c234ba192ed8c2f53d57, type: 3}
   - text: ... *sniffle*
     speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
     sprite: {fileID: 21300000, guid: d88cae32d4d1c234ba192ed8c2f53d57, type: 3}

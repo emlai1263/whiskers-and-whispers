@@ -46,7 +46,7 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
   - text: You did!? What?
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: a273e2954f4769e448623028719996dd, type: 3}
   - text: "I-I saw someone go into the kitchen\u2026 another cat. I-I couldn\u2019t
       tell who it was because it was dark but\u2026 then I heard some sharp, metal
       sounds. It sounds like the container from outside\u2026 but not as deep."
@@ -60,11 +60,11 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
   - text: "The trash can\u2026? That\u2019s what it is? T-Then yes, the trash can."
     speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
-    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+    sprite: {fileID: 21300000, guid: f99cb2986a869df4a83f20dc1702ce58, type: 3}
   - text: "The trash can\u2026! Maybe they were trying to expose some sort of evidence?!
       Come on, Kiwie, let\u2019s go!"
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: 15135f57ae253014eb76789b079dbc88, type: 3}
   background: {fileID: 21300000, guid: c228371247fc2d14fa768eaeacbe2138, type: 3}
   backgroundOpacity: 1
   nextScene: {fileID: 11400000, guid: 78f102fc675e77447824382ce0139b9a, type: 2}

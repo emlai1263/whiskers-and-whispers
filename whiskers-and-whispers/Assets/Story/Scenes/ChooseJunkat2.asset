@@ -23,10 +23,10 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
   - text: "The hairball\u2026 it\u2019s mostly orange. "
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
-    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+    sprite: {fileID: 21300000, guid: dd0f25f3f7e103444af84ffa919810e3, type: 3}
   - text: "\u2026 "
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
-    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+    sprite: {fileID: 21300000, guid: dd0f25f3f7e103444af84ffa919810e3, type: 3}
   - text: 'Doug and I glance at each other as if mutually understanding who our guy
       was. '
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
@@ -36,7 +36,7 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
   - text: 'The other cats gather around; Ryan, in particular, is watching us carefully. '
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+    sprite: {fileID: 21300000, guid: dd0f25f3f7e103444af84ffa919810e3, type: 3}
   - text: "Everybody, me and Dug have come up with some \u2026 pretty damning evidence
       to lead us to believe who the killer might be."
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
@@ -47,7 +47,7 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
   - text: "You found the hairball\u2026 !"
     speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
-    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+    sprite: {fileID: 21300000, guid: f99cb2986a869df4a83f20dc1702ce58, type: 3}
   - text: I did. Thank you, Miffy.
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
     sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
@@ -57,13 +57,13 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
   - text: "\u2026 is Junkat. "
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
-    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+    sprite: {fileID: 21300000, guid: b89cbe81bee9e5b479cf676a231ab659, type: 3}
   - text: Everybody looks around in shock. Junket in particular looks almost mortified
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 21300000, guid: e16bb1fd29fbce549abcf23c93e1dedb, type: 3}
+    sprite: {fileID: 21300000, guid: 91bd4efe60c03fa498e2be32546df8f2, type: 3}
   - text: "Me\u2026 you think I was the one who killed the owner?"
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-    sprite: {fileID: 21300000, guid: e16bb1fd29fbce549abcf23c93e1dedb, type: 3}
+    sprite: {fileID: 21300000, guid: feec32dcedff6f146969764f9d2dafc3, type: 3}
   - text: "You are the one who's able to decipher the bottle of drain cleaner. You're
       the only one who could have known that was poisonous! Second of all, the hairball\u2026"
     speaker: {fileID: 11400000, guid: 1861c242045ba6f46b189aa3c5cc86e0, type: 2}
@@ -73,25 +73,25 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: e16bb1fd29fbce549abcf23c93e1dedb, type: 3}
   - text: Everyone's eyes land on Junkat. Their expression grows nervous.
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 21300000, guid: e16bb1fd29fbce549abcf23c93e1dedb, type: 3}
+    sprite: {fileID: 21300000, guid: 347ecd6846be9374d8adfa877ef35ac2, type: 3}
   - text: "This\u2026 this is a misunderstanding. I have no reason to kill the owner!
       I was the one who helped you decipher the drain cleaner, and that hairball
       could have been from days ago!"
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-    sprite: {fileID: 21300000, guid: e16bb1fd29fbce549abcf23c93e1dedb, type: 3}
+    sprite: {fileID: 21300000, guid: 91bd4efe60c03fa498e2be32546df8f2, type: 3}
   - text: "Y-You\u2019re\u2026 you\u2019re wrong! That hairball is fresh!"
     speaker: {fileID: 11400000, guid: 231fa437572d2da4f8973f936ad91550, type: 2}
-    sprite: {fileID: 21300000, guid: 6eec64ceaffe1974b9d0a17160bfac63, type: 3}
+    sprite: {fileID: 21300000, guid: 91c43f3f2060aaa41aae0c71d1714962, type: 3}
   - text: "You could\u2019ve just deciphered it because it\u2019d be suspicious if
       you didn\u2019t\u2026\u2026~"
     speaker: {fileID: 11400000, guid: c79a115cb8c7ae44d9c5026a0a6ce523, type: 2}
     sprite: {fileID: 21300000, guid: 4041337ef704cc947b7952eecf171b11, type: 3}
   - text: Junkat looks around defensively, shaking their head.
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 21300000, guid: e16bb1fd29fbce549abcf23c93e1dedb, type: 3}
+    sprite: {fileID: 21300000, guid: 91bd4efe60c03fa498e2be32546df8f2, type: 3}
   - text: You guys got it all wrong! I didn't do anything wrong! I didn't kill them!
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-    sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
+    sprite: {fileID: 21300000, guid: feec32dcedff6f146969764f9d2dafc3, type: 3}
   - text: "Junkat\u2026 give it up. We know it was you."
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
     sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
@@ -100,11 +100,11 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
   - text: Junkat is silent as they try to figure out what to say next.
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 21300000, guid: e22f1bc44213c7848a6226a6c530673c, type: 3}
+    sprite: {fileID: 21300000, guid: f8e5bccaedec04140a1299b7598a49fc, type: 3}
   - text: "I didn't\u2026 I swear. Last night\u2026 I was just doing what I usually
       did. "
     speaker: {fileID: 11400000, guid: d0bcd31abf2154841a74b3026c859fed, type: 2}
-    sprite: {fileID: 21300000, guid: b7b8d142d9798f140b4a4d5cc26fe455, type: 3}
+    sprite: {fileID: 21300000, guid: e16bb1fd29fbce549abcf23c93e1dedb, type: 3}
   background: {fileID: 21300000, guid: c228371247fc2d14fa768eaeacbe2138, type: 3}
   backgroundOpacity: 1
   nextScene: {fileID: 11400000, guid: 57d36d26170c97e45afc2e96b2cc8173, type: 2}

@@ -15,14 +15,14 @@ MonoBehaviour:
   sentences:
   - text: "Did you need something\u2026..? "
     speaker: {fileID: 11400000, guid: c79a115cb8c7ae44d9c5026a0a6ce523, type: 2}
-    sprite: {fileID: 21300000, guid: 4041337ef704cc947b7952eecf171b11, type: 3}
+    sprite: {fileID: 21300000, guid: 41eb36e025817074e98ae85ce4c33907, type: 3}
   - text: "Gus, a Persian who usually sleeps in most days; I can never get a real
       read of them, though by all accounts, they\u2019re just a lazy cat. "
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
     sprite: {fileID: 21300000, guid: 4041337ef704cc947b7952eecf171b11, type: 3}
   - text: "The only time I\u2019ve seen them move is to eat and drink - but otherwise\u2026 "
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
-    sprite: {fileID: 21300000, guid: 4041337ef704cc947b7952eecf171b11, type: 3}
+    sprite: {fileID: 21300000, guid: 9e0076748c0d3fa479333ed832c75391, type: 3}
   - text: "\u2026 You know something, don\u2019t you? "
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
     sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
@@ -40,7 +40,7 @@ MonoBehaviour:
   - text: 'Last night, I heard a kitty walk into the kitchen. There was a bang bang
       sound, like steel against steel. '
     speaker: {fileID: 11400000, guid: c79a115cb8c7ae44d9c5026a0a6ce523, type: 2}
-    sprite: {fileID: 21300000, guid: 4041337ef704cc947b7952eecf171b11, type: 3}
+    sprite: {fileID: 21300000, guid: bf7c9aa6003137d4f849a6da1844a962, type: 3}
   - text: 'Steel against steel? '
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
     sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
@@ -49,7 +49,7 @@ MonoBehaviour:
     sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
   - text: "The trash can inside of the kitchen. Let\u2019s look there. "
     speaker: {fileID: 11400000, guid: 5e4686701c8cdf340ae88a03f2fbdbe1, type: 2}
-    sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
+    sprite: {fileID: 21300000, guid: dd0f25f3f7e103444af84ffa919810e3, type: 3}
   - text: 'Dug goes ahead of me, prancing towards the kitchen. '
     speaker: {fileID: 11400000, guid: 1d4f7c46f9200ed40b5eb08c64a4c3d6, type: 2}
     sprite: {fileID: 21300000, guid: e6e148269aeddd44d9699201356d4516, type: 3}
