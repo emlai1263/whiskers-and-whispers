@@ -14,9 +14,6 @@ public class PlayerBulletDug : MonoBehaviour
 
 	public HealthBar healthBar;
 
-    private float timer = 0f;
-    private float interval = 1f; // Interval in seconds to trigger the function
-
     // Start is called before the first frame update
     void Start()
     {
@@ -32,7 +29,7 @@ public class PlayerBulletDug : MonoBehaviour
     void Update()
     {
 		if(currentHealth <= 0){
-			SceneManager.LoadSceneAsync(9);
+			SceneManager.LoadSceneAsync("BulletGameDug");
 		}
     }
 

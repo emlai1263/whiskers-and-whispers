@@ -48,7 +48,7 @@ EditorBuildSettings:
     path: Assets/Scenes/RyanComfortMiffy.unity
     guid: 5b480e3fa762b324d951f049675a4fa8
   - enabled: 1
-    path: Assets/Scenes/Overworld2.unity
+    path: Assets/Scenes/Dug/Overworld2.unity
     guid: 91e1fbdee515c054cb0e8cc50d898e59
   - enabled: 1
     path: Assets/Scenes/Dug/J2.unity

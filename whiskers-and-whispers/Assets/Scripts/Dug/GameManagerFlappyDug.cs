@@ -74,7 +74,7 @@ public class GameManagerDug : MonoBehaviour
         // gameEnd.SetActive(true);
         // creditText.SetActive(true);
         // playButton2.SetActive(true);
-        SceneManager.LoadScene("BulletGameDug");
+        SceneManager.LoadScene("TrashFound");
 
     }
 }
