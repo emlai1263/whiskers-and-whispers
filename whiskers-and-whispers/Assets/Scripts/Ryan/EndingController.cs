@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement; // Add this line for SceneManager
 
-public class AfterBulletDug : MonoBehaviour
+public class EndingController : MonoBehaviour
 {
     public List<StoryScene> scenes;
     public BottomBarController bottomBar;
@@ -45,11 +45,7 @@ public class AfterBulletDug : MonoBehaviour
                 {
                     if (bottomBar.IsLastSentece())
                     {
-                        // PlayScene(currentScene.nextScene);
-                        StartCoroutine(SwitchScene(scenes[currentSceneIndex].nextScene));
-                        // currentScene = currentScene.nextScene;
-                        // bottomBar.PlayScene(currentScene);
-
+                        //
                     }
                     else
                     {
@@ -58,31 +54,6 @@ public class AfterBulletDug : MonoBehaviour
                 }
             }
         }
-    }
-
-    // private void PlayScene(StoryScene scene)
-    // {
-    //     StartCoroutine(SwitchScene(scene));
-    // }
-
-    private IEnumerator SwitchScene(StoryScene scene)
-    {
-        if (scene == null)
-        {
-            // Load the "Overworld" scene
-            SceneManager.LoadScene("DugSelection");
-        }
-        state = State.ANIMATE;
-        // Fade out current background
-        yield return StartCoroutine(FadeBackground(0.0f));
-        currentSceneIndex = scenes.IndexOf(scene);
-        bottomBar.PlayScene(scene);
-        SetBackground(scene.background);
-        // Fade in new background
-        yield return StartCoroutine(FadeBackground(1.0f));
-        state = State.IDLE;
-
-
     }
 
     private IEnumerator FadeBackground(float targetOpacity)

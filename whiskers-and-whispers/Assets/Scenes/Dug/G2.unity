@@ -762,7 +762,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 4a4747bc4b3c939489cfc24182006a75, type: 2}
   - {fileID: 11400000, guid: dfbe477ea7766e84f847e67ae1cca32a, type: 2}
   bottomBar: {fileID: 2114831825}
-  backgroundRenderers: []
+  backgroundRenderers:
+  - {fileID: 36348345}
+  - {fileID: 36348345}
 --- !u!4 &2114831824 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3996942754549125340, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
