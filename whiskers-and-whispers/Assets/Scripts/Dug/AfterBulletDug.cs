@@ -4,14 +4,12 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement; // Add this line for SceneManager
 
-public class AfterBulletDugController : MonoBehaviour
+public class AfterBulletDug : MonoBehaviour
 {
     public List<StoryScene> scenes;
     public BottomBarController bottomBar;
     public List<SpriteRenderer> backgroundRenderers;
-    public GameObject agreeButton;
-    public GameObject disagreeButton;
-    public float fadeDuration = 1.0f;
+    private float fadeDuration = 0.4f;
     private int currentSceneIndex = 0;
     private State state = State.IDLE;
     private enum State
@@ -19,13 +17,17 @@ public class AfterBulletDugController : MonoBehaviour
         IDLE, ANIMATE
     }
 
+    // sound stuff
+    private void Awake()
+    {
+        //audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
+
     void Start()
     {
         bottomBar.PlayScene(scenes[currentSceneIndex]);
         //backgroundController.SetImage(currentScene.background);
         SetBackground(scenes[currentSceneIndex].background); // Set initial background
-        agreeButton.SetActive(false); // Initially hide the buttons
-        disagreeButton.SetActive(false);
     }
 
     // Update is called once per frame
@@ -43,14 +45,10 @@ public class AfterBulletDugController : MonoBehaviour
                 {
                     if (bottomBar.IsLastSentece())
                     {
-                        if (currentSceneIndex == scenes.Count - 1) // Check if it's the last scene
-                        {
-                            ShowDecisionButtons();
-                        }
-                        else
-                        {
-                            StartCoroutine(SwitchScene(scenes[currentSceneIndex].nextScene));
-                        }
+                        // PlayScene(currentScene.nextScene);
+                        StartCoroutine(SwitchScene(scenes[currentSceneIndex].nextScene));
+                        // currentScene = currentScene.nextScene;
+                        // bottomBar.PlayScene(currentScene);
 
                     }
                     else
@@ -69,11 +67,11 @@ public class AfterBulletDugController : MonoBehaviour
 
     private IEnumerator SwitchScene(StoryScene scene)
     {
-        // if (scene == null)
-        // {
-        //     // Load the "Overworld" scene
-        //     SceneManager.LoadScene("Overworld");
-        // }
+        if (scene == null)
+        {
+            // Load the "Overworld" scene
+            SceneManager.LoadScene("Overworld2");
+        }
         state = State.ANIMATE;
         // Fade out current background
         yield return StartCoroutine(FadeBackground(0.0f));
@@ -115,11 +113,5 @@ public class AfterBulletDugController : MonoBehaviour
         {
             backgroundRenderer.sprite = sprite;
         }
-    }
-
-    private void ShowDecisionButtons()
-    {
-        agreeButton.SetActive(true);
-        disagreeButton.SetActive(true);
     }
 }
