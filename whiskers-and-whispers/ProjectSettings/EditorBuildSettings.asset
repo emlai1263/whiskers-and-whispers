@@ -176,4 +176,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Dug/ChooseJunkatDug.unity
     guid: 5f30bae6f76b1fb4f95b856c78364946
+  - enabled: 1
+    path: Assets/Scenes/Ryan/G3.unity
+    guid: 61bc5b75bb0288344941fa8906963b51
   m_configObjects: {}
