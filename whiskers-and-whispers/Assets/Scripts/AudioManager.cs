@@ -9,6 +9,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip defaultBgMusic;
     public AudioClip murderBgMusic;
     
+    
     public static AudioManager instance;
     private void Awake(){
         if (instance == null){
@@ -23,13 +24,13 @@ public class AudioManager : MonoBehaviour
         musicSource.Play();
     }
 
-    public void switchMusicMurder(){
-        musicSource.clip = murderBgMusic;
+    public void PlayDefaultMusic(){
+        musicSource.clip = defaultBgMusic;
         musicSource.Play();
     }
 
-    public void switchMusicDefault(){
-        musicSource.clip = defaultBgMusic;
+    public void PlayMurderMusic(){
+        musicSource.clip = murderBgMusic;
         musicSource.Play();
     }
 }
