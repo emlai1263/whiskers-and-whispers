@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.SocialPlatforms.Impl;
 
-public class Player : MonoBehaviour
+public class PlayerDug : MonoBehaviour
 {
     private SpriteRenderer spriteRenderer;
     public Sprite[] sprites;
@@ -57,13 +57,13 @@ public class Player : MonoBehaviour
     {
         if (other.gameObject.tag == "Obstacle")
         {
-            FindObjectOfType<GameManager>().GameOver();
+            FindObjectOfType<GameManagerDug>().GameOver();
             hitSound.time = 0.3f;
             hitSound.Play();
         }
         else if (other.gameObject.tag == "Scoring")
         {
-            FindObjectOfType<GameManager>().IncreaseScore();
+            FindObjectOfType<GameManagerDug>().IncreaseScore();
         }
     }
 }

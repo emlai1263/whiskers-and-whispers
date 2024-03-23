@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class Timer : MonoBehaviour
+public class TimerDug : MonoBehaviour
 {
     float currentTime;
     public TextMeshProUGUI currentTimeText; // Use TextMeshProUGUI instead of Text

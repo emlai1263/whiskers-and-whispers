@@ -4,7 +4,7 @@ using UnityEngine;
 using System.Linq;
 using UnityEngine.SceneManagement;
 
-public class PlayerBullet : MonoBehaviour
+public class PlayerBulletDug : MonoBehaviour
 {
 
 	public int maxHealth = 100;
