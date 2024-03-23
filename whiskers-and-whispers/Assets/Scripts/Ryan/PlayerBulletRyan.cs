@@ -32,8 +32,8 @@ public class PlayerBulletRyan : MonoBehaviour
     void Update()
     {
 		if(currentHealth <= 0){
-			SceneManager.LoadSceneAsync(9);
-		}
+            SceneManager.LoadScene("BulletGameRyan");
+        }
     }
 
 	public void TakeDamage(int damage)

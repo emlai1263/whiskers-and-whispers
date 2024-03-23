@@ -21,8 +21,8 @@ public class TimerRyan : MonoBehaviour
         currentTimeText.text = (Mathf.RoundToInt(currentTime)).ToString();
 
         if(currentTime >= 30){
-			SceneManager.LoadSceneAsync(0);
-		}
+            SceneManager.LoadScene("AfterBullet1");
+        }
     }
     
 }

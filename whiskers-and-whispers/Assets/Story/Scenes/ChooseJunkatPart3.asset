@@ -28,6 +28,6 @@ MonoBehaviour:
   - text: 'Are you saying that their death was their own fault!? '
     speaker: {fileID: 11400000, guid: 0917fbfe30a055a48995b0180758f2d6, type: 2}
     sprite: {fileID: 21300000, guid: 6bfbc92e799cacf4cb5688e4386cb2f5, type: 3}
-  background: {fileID: 21300000, guid: c228371247fc2d14fa768eaeacbe2138, type: 3}
+  background: {fileID: 21300000, guid: 15ebeb3109f43af4485d5188e7201ae5, type: 3}
   backgroundOpacity: 1
   nextScene: {fileID: 11400000, guid: 3a6db40fbb3589d469c83f5f788d284a, type: 2}

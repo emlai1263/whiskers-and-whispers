@@ -65,4 +65,58 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ryan/BulletGameRyan.unity
     guid: 955de10638f70594691d45e89b93f45c
+  - enabled: 1
+    path: Assets/Scenes/Ryan/ChooseDug.unity
+    guid: 048e7ea86065f0b4f889ec58471d53c3
+  - enabled: 1
+    path: Assets/Scenes/Ryan/ChooseGus.unity
+    guid: 7665f7e0b35fb8f4cb12e396ef1a3465
+  - enabled: 1
+    path: Assets/Scenes/Ryan/ChooseJunkat.unity
+    guid: 8e1f35245d21f254ab8a01f1cc4df46c
+  - enabled: 1
+    path: Assets/Scenes/Ryan/ChooseKiwie.unity
+    guid: c62970aaeaacc8b43af6cc7a1a4b15d7
+  - enabled: 1
+    path: Assets/Scenes/Ryan/ChooseMiffy.unity
+    guid: 55cf23e83733cd84b898eee32a190e24
+  - enabled: 1
+    path: Assets/Scenes/Ryan/ChooseRyan.unity
+    guid: 2fe3891b4af61d34c9b29c6c008f105d
+  - enabled: 1
+    path: Assets/Scenes/Ryan/AfterFlappyRyan.unity
+    guid: 6b23e277be332354d9f4e635b790c9bd
+  - enabled: 1
+    path: Assets/Scenes/Ryan/AfterBulletRyan.unity
+    guid: c8af9ee012789204fa8273d02e12d9ad
+  - enabled: 1
+    path: Assets/Scenes/Ryan/AfterBullet1.unity
+    guid: 8816baad32f26b74db18a51fe28f6b25
+  - enabled: 1
+    path: Assets/Scenes/Ryan/M3.unity
+    guid: 259289a42d107a440a8248e39874129c
+  - enabled: 1
+    path: Assets/Scenes/Ryan/J3.unity
+    guid: fcddb16a75952f9489f57229dbdc5e09
+  - enabled: 1
+    path: Assets/Scenes/Ryan/FlappyBirdRyan.unity
+    guid: 0e2ed67bcb655674185aeeb4ddcac78e
+  - enabled: 1
+    path: Assets/Scenes/Ryan/Ending.unity
+    guid: 2ee8e37bf3394f54895ed513fed32558
+  - enabled: 1
+    path: Assets/Scenes/Ryan/D3.unity
+    guid: f566815658b7d5f448fd44ee8ceb3e7c
+  - enabled: 1
+    path: Assets/Scenes/Ryan/OverworldBeforeBulletRyan.unity
+    guid: 67406d97d85c1774a94f853d3530461d
+  - enabled: 1
+    path: Assets/Scenes/Ryan/OverworldRyanAfterBullet.unity
+    guid: 8bf6634b320b2b24da09acc1dbeef87c
+  - enabled: 1
+    path: Assets/Scenes/Ryan/R3.unity
+    guid: 8e8f951974289f2438d3543b080cfeee
+  - enabled: 1
+    path: Assets/Scenes/Ryan/SelectionScreen.unity
+    guid: 4da6e4df0fe795446a15947aaac36c98
   m_configObjects: {}
