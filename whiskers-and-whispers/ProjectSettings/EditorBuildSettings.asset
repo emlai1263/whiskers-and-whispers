@@ -102,7 +102,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Ryan/FlappyBirdRyan.unity
     guid: 0e2ed67bcb655674185aeeb4ddcac78e
   - enabled: 1
-    path: Assets/Scenes/Ryan/Ending.unity
+    path: Assets/Scenes/Ending.unity
     guid: 2ee8e37bf3394f54895ed513fed32558
   - enabled: 1
     path: Assets/Scenes/Ryan/D3.unity
@@ -135,7 +135,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Dug/G4.unity
     guid: 538fc0929040c464986e888c3d9c3e04
   - enabled: 1
-    path: Assets/Scenes/Dug/J3.unity
+    path: Assets/Scenes/Dug/J3DugBranch.unity
     guid: 3c5de66c5a476614997b209ffb343fbe
   - enabled: 1
     path: Assets/Scenes/Dug/M4.unity

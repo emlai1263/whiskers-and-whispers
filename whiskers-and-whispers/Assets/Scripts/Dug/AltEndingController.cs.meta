@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8d6e39cd652c83e4083408f0a96ad865
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - currentScene: {fileID: 11400000, guid: 250838fa825faad449d06b1d5e43a316, type: 2}
+  - bottomBar: {fileID: 4044920494681139242, guid: 2f16e80e7192bf34281da6907f027da5, type: 3}
+  - backgroundController: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

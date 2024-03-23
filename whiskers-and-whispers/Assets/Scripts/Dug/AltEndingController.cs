@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement; // Add this line for SceneManager
 
-public class ChooseJunkatDugController : MonoBehaviour
+public class AltEndingController : MonoBehaviour
 {
     public List<StoryScene> scenes;
     public BottomBarController bottomBar;
@@ -18,10 +18,9 @@ public class ChooseJunkatDugController : MonoBehaviour
     }
 
     // sound stuff
-    private void Awake()
-    {
-        //audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
-    }
+    // private void Awake(){
+    //     audioManager = GameObject.FindGameObjectWithTag("Audio").GetComonent<AudioManager>();
+    // }
 
     void Start()
     {
@@ -70,7 +69,7 @@ public class ChooseJunkatDugController : MonoBehaviour
         if (scene == null)
         {
             // Load the "Overworld" scene
-            SceneManager.LoadScene("Ending");
+            //SceneManager.LoadScene("SelectionScreenDug");
         }
         state = State.ANIMATE;
         // Fade out current background

@@ -70,7 +70,7 @@ public class ChooseJunkatController : MonoBehaviour
         if (scene == null)
         {
             // Load the "Overworld" scene
-            SceneManager.LoadScene("Ending1");
+            SceneManager.LoadScene("Ending");
         }
         state = State.ANIMATE;
         // Fade out current background

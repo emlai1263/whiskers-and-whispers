@@ -60,7 +60,7 @@ public class GameManagerRyan : MonoBehaviour
     {
         score++;
         scoreText.text = score.ToString();
-        if (score == 2)
+        if (score == 20)
         {
             GameEnd();
         }
